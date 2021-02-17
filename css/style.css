@@ -760,7 +760,7 @@ text-align:center; opacity:0.4;
 #dSen0,#dSen1{
 	width:100%;
 }
-#dSen0 pre,#dSen1 pre{font-size:22px;}
+#dSen0 pre,#dSen1 pre{font-size:20px;}
 .ser_box1{width:49%;float:left;}
 .ser_box2{width:49%;float:right;padding-left:1%; text-align:center;}
 .ser_box1,.ser_box2{background:#0000001f;height:350px;overflow:auto;}
