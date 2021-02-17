@@ -41,7 +41,7 @@ function hLang(){
 hLang();
 /**/
 
-/*寫入文本*/
+/*写入文本*/
 var hUl = hLi = hFont = hBtn = hpic = ""; 							
 hUl = "<ul class='dtUl'>";
 hLi = "<li class='Lpic'><div class='tdPic'><img class='lazy' src='../imgs/load.gif' data-echo='../picture/view/";
@@ -55,10 +55,10 @@ function wtxt(cPage){
 	var wSty = picNum0 = "";
    hFont = "<font class='"+fontSty[0]+"'>"+dtp[end0-1][cPage][0][lang]+"<br/></font><br>";
   
-	for(var j=0; j<dtp[end0-1][cPage].length; j++){  // 每頁 小分類
-	rNum = Object.keys(dtp[end0-1][cPage][j]).length;  // 每個小分類 右側文本 行數
+	for(var j=0; j<dtp[end0-1][cPage].length; j++){  
+	rNum = Object.keys(dtp[end0-1][cPage][j]).length;  
 	if(j == 0){rNum -= langSum;}
-		while(k <= rNum){    		 //寫入n條 標題 
+		while(k <= rNum){    	
 			hFont += "<font class='"+fontSty[k-1]+"'>"+dtp[end0-1][cPage][j][k]+"<br/></font>";
 			k++;
 		}
@@ -193,15 +193,15 @@ function By(id){
 	}
 } */
 
-var amountPage = Object.keys(dtp[end0-1]).length;   //  end0 = string 改   默認總頁數 應 = 全部類目數量 =》pageNums
+var amountPage = Object.keys(dtp[end0-1]).length;  
 
-if(localStorage.arr != undefined){  //news_all頁面 有執行搜索,並返回了 
+if(localStorage.arr != undefined){  //news_all頁面 有執行搜索,并返回了 
 	var serLists = localStorage.arr;  // 讀取
 	arr = JSON.parse(serLists);       
 	amountPage = arr.length;
 }else{                 // 創建默認有序列表
 	var arr = [];
-	for(var j=1; j<=amountPage; j++){    // 可改為雙迴圈 默認搜索頁 所有類目加入 換頁總頁數
+	for(var j=1; j<=amountPage; j++){    // 可改為雙迴圈 默認搜尋網頁 所有類目加入 換頁總頁數
 		arr.push(end0+"_"+j);    
 	}
 }
@@ -240,7 +240,7 @@ document.onkeydown = function(e){
 	} 
 }  
 //
-function nextPage(){      // or  arr[curPage] == arr[arr.length]  當前字串 = 最後一個的字串
+function nextPage(){      // or  arr[curPage] == arr[arr.length]  當前字串 = 最後一個字串
 
  if(arr.length > 1){
 	if(curPage < arr.length){
@@ -280,29 +280,30 @@ function gotopage(newPage_num) {
 var pVal0 = pVal1 = 0;
 var sty0 = "<span class='list0 list2'>";
 function setpage() {   // 初始化or重繪 頁面列表
-	pVal0 = parseInt((curPage-1)/pageLen);
-	pVal1 = parseInt(amountPage/pageLen);
+	pVal0 = parseInt((curPage-1)/pageLen);  //計算 當前所在頁 在第幾頁 分頁
+	pVal1 = parseInt(amountPage/pageLen); // 分頁數量
+	if(amountPage%pageLen == 0){pVal1 = pVal1-1;}
+	//console.log(curPage+" :: "+pVal0+" - "+pVal1);
 	var p11 = 1;
 	var p2 = amountPage;
-	if(amountPage>pageLen){
+	if(amountPage > pageLen){
 		if(pVal0 == 0) { 
 			p2 = pageLen;
-			btn0 += "<a class='isBtn1' onclick='gotopage("+(p2+1)+")'> Next </a>"; 
-		}else if(pVal0 == pVal1){
-			p11 = pVal1*pageLen+1;
-			p2 = amountPage;
-			btn0 += "<a class='isBtn0' onclick='gotopage("+(pVal0*pageLen)+")'>Prev</a>";
-		}else{
+			btn0 = "<a class='isBtn1' onclick='gotopage("+(p2+1)+")'>Next</a>"; 
+		}else if(pVal0 < pVal1){
 			p11 = pVal0*pageLen+1;
 			p2 = pVal0*pageLen+pageLen;
-			btn0 += "<a class='isBtn0' onclick='gotopage("+(pVal0*pageLen)+")'>Prev</a>"; 
-			btn0 += "<a class='isBtn1' onclick='gotopage("+(p2+1)+")'> Next </a>"; 
+			btn0 = "<a class='isBtn0' onclick='gotopage("+(pVal0*pageLen)+")'>Prev</a>"; 
+			btn0 += "<a class='isBtn1' onclick='gotopage("+(p2+1)+")'>Next</a>"; 
+		}else{
+			p11 = pVal1*pageLen+1;
+			btn0 = "<a class='isBtn0' onclick='gotopage("+(pVal0*pageLen)+")'>Prev</a>";
 		}
 	}
 	for(pl=p11; pl<=p2; pl++) {
 		if(pl!=curPage){
 			if(pl <= amountPage){
-				aaa = "<a class='list0' onclick='gotopage("+pl+")'>"+pl+"</a>";
+				aaa = "<a class='list0' href='"+top0+fName+arr[pl-1]+".html'>"+pl+"</a>";
 			}else{
 				aaa = "<a class='list1'>"+pl+"</a>";
 			}
