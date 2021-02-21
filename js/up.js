@@ -57,7 +57,7 @@ function wtxt(cPage){
   
 	for(var j=0; j<dtp[end0-1][cPage].length; j++){  
 	rNum = Object.keys(dtp[end0-1][cPage][j]).length;  
-	if(j == 0){rNum -= langSum;}
+	if(j == 0){rNum = rNum-langSum-1;}
 		while(k <= rNum){    	
 			hFont += "<font class='"+fontSty[k-1]+"'>"+dtp[end0-1][cPage][j][k]+"<br/></font>";
 			k++;

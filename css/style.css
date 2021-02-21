@@ -988,7 +988,7 @@ border-radius: 10px 0 20px 0;text-align: center;line-height: 40px;overflow: hidd
 	.for4{width:90%;}
 	#searchTxt,#data_list{width:80%;}
 	.ser_box{width:50%;}
-
+	.thaifont{max-height:39px;}
 }  
 @media screen and (max-width: 425px){
    .Lpic{width:100%;}
