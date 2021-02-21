@@ -5,14 +5,14 @@ var cPath = "file/";
 var isUrl = window.location.href;
 var firName = xyStr("/","_").substring(1,wCtn.length);
 switch(firName){
-	case fName1:
+/* 	case fName1:
 	wCtn = fName1;
 	wName = sArr1;
 	break;
 	default:
 	wCtn = fName0;
 	wName = data0;  // dict 頁面 暫時 只搜索字典，不加入其他模組
-	break;
+	break; */
 }
 function xyStr(a,b){
 	var start0 = isUrl.lastIndexOf(a);
