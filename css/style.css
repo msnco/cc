@@ -19,8 +19,9 @@ input,button,textarea{font-family:"tt_1",Arial,'微软雅黑';}
 html{-ms-touch-action:manipulation; touch-action:manipulation; font-size:100%}
 body{position:relative; font-family:'tt',Arial,'微软雅黑'; color:#aab9cc; background-color:#0d141e; max-width:1920px; /*background-image:url(../imgs/bg.jpg ); background-repeat:no-repeat; background-attachment:fixed; */ 
 /*background-size: 100% auto; */}
+a{color:#ffffffc7;}
 ul{list-style-type: none;}
-a{color:#ffffffc7;text-decoration: none;border: none;}
+a{text-decoration: none;border: none;}
 p{font-size: 14px;line-height: 22px;}
 em{font-style: normal;}
 b{background:#0597ff52;font-weight: normal;}
@@ -182,7 +183,6 @@ a.full{position: absolute;left: 0;top: 0;height: 100%;width: 100%;z-index: 9;bac
 }
 .nav .title a{
 	left: 0;top: 0;
-	color: #ffffffc7;
 	font-size: 18px;
 	height: 40px;width: 100%;
 	letter-spacing: 2px;
@@ -915,7 +915,7 @@ border-radius: 10px 0 20px 0;text-align: center;line-height: 40px;overflow: hidd
 
 	.nav>ul{position:fixed;left:auto;width:100%;text-align:center; top:15%; height:80%;overflow:auto;}
 	.nav>ul>li{float:none;display:block;line-height:30px;text-align:left;padding-left:10%; height:65px;padding-bottom:80px;}
-	.nav .title a{position: relative;font-size: 27px;line-height: 40px;color:#ffffffc7 !important;padding: 0;}
+	.nav .title a{position: relative;font-size: 27px;line-height: 40px;padding: 0;}
 	.nav .title em{position: relative;top: 0;padding-left: 10px;opacity: 0.5;color: #fff;}
 	.nav>ul>li:after,.sub{display: none !important;}
 	.setLang, .sCat{font-size:27px;}
@@ -1006,4 +1006,3 @@ border-radius: 10px 0 20px 0;text-align: center;line-height: 40px;overflow: hidd
  .isBtn0{ left:2px;}
  .isBtn1{right:2px;}
 }
-.footer_cell a,.title a{color:#ffffffc7;}
