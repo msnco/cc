@@ -21,6 +21,7 @@
 .current{ background:#c1b0b07a; } 
 .list0,.list1,.current{padding:0 20px;}.list1{color:#cacaca;}.ctrl{clear:both;}
 .off{display:none;}
+html,body{scroll-behavior:smooth;}
 </style>
 </head> 
 <body>
@@ -84,9 +85,11 @@
 </div>
 <span id="tempT" style="top:0;"></span>
 	<div class="serArea">
+		<div style="display: flex;">
 		<input id="searchTxt" class="" type="text" placeholder="" value="" oninput="fnDelay('ct0')" onfocus="gTop()"/>
-		<a href="javascript:;" onclick="serCon('ct1')"><img src="imgs/search.ico" alt="search"/></a>
-		<ul id="data_list"></ul> 
+		<span><a href="javascript:;" onclick="serCon('ct1')"><img src="imgs/search.ico" alt="search"/></a></span>
+		</div>
+		<ul id="data_list"></ul>
 	</div>
 	<div>
 		<ul id="newsAll">

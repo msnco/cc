@@ -573,7 +573,7 @@ a#next:before{content:'Next'; }
  .newsAllTitle p{font-size:16px; height:44px; 
  display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;} 
  #newsAll{margin-top:25px;}
- #newsAll li{float:left; width:22%; padding:0 5px; overflow:hidden;}
+ #newsAll li{float:left; width:22%; padding:0 5px; overflow:hidden;text-align:center;}
  .imgSize{overflow:hidden; margin-top:5px;height:100%; }
  .isms{margin-top:70px; }
  .aLists{text-align:center; word-wrap:break-word;  word-break:break-all;  line-height:35px; }
@@ -771,7 +771,8 @@ text-align:center; opacity:0.4;
 #dSen1 .ser_box1{width:100%;text-align:center; height:300px;}
 /**/
 #searchTxt{min-height:40px; font-size:18px; position:relative;z-index:9;}
-.serArea img{position:absolute; padding:0 15px; width:35px;}
+.serArea img{width:35px;}
+.serArea span{width:50px;line-height:50px;text-align:center;}
 .vL a{display:inline-block;clear:both; width:100px; height:48px;overflow:hidden;font-size:25px;margin:10px 0; /* background:#ffffff0d; */}
 .vL a:hover{width:200px; color:#d35f0c; background:#eeeeee;
 transition:width 1s;

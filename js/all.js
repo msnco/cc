@@ -273,6 +273,7 @@ function gotopage(nextNums){
 	By("newsAll").innerHTML = creatLists;
 	creatImg = "";
 	setpage();
+	location.href = "#top0";
 }
 
 if(localStorage.curView != undefined){
