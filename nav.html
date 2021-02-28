@@ -31,9 +31,11 @@ text-align: center; margin: 15px;border-radius: 50%;overflow:hidden ;white-space
 
 .navC{clear:both;width: 100px;padding:5px 0; background: #ffffff1c;text-align: center; margin-top:50px; font-size:20px;}	
 .pv{color:#268eb5;font-size:25px;width:200px; margin-top:0px;}
+.pv1{color:#db9b26;}
 .L3 a{color:grey;}
 .L1 a{color:red;}
 .footer{clear:both;}
+#RecV li{width:30%; border-radius:inherit;}
 html,body{scroll-behavior:smooth;}
 </style>
 </head>
@@ -82,6 +84,11 @@ html,body{scroll-behavior:smooth;}
 	<li> <a href="https://odysee.com/@pursueNewLife:d?r=7KtyoUrf1osaUq8WQKma9YT1Y2MiVBmp">有趣|搞笑視頻</a> </li>
 	<li> <a href="https://pursuenewlife.blogspot.com/2021/02/help.html">Leave a message</a></li>
 	</div>
+	
+	<div class="navC pv1">
+	<span>Recent</span>
+	</div> 
+	<div id="RecV" class="ctrl0"></div>
 	<div class="navC">
 	<span>Ai & 工具</span>
 	</div> 
@@ -241,43 +248,6 @@ html,body{scroll-behavior:smooth;}
 <a name="end0"></a>   
 <br/>
 <div class="footer" style="position:relative;">
-<span id="tempT" style="top:0;"></span>
-   <div class="footer_cell">
-	   <div class="foot_extend">
-		<div class="foot_box for4 fLeft">
-			
-		<p>Contact <br>
-		</p>
-		   <ul class="top-ico">
-			 <li><a href="#" target="_blank"><img src="imgs/fb.png" alt="Facebook@msncc"/></a>
-			 <span>Facebook</span></li>
-			 <li><a href="#" target="_blank"><img src="imgs/tt.png" alt="twitter@msncc"/></a>  
-			 <span>Twitter</span></li>
-			 <li><a style="opacity:1;" href="https://pursuenewlife.blogspot.com/" target="_blank" ><img src="imgs/gb.png" alt="google blogger@msncc"/></a>  
-			 <span>blogger</span></li>
-			 <li><a href="#" target="_blank"><img src="imgs/ins.png" alt="Ins@msncc"/></a>  
-			 <span>Ins</span></li>
-			 <li> <a href="#" target="_blank"><img src="imgs/wa.png" alt="whatsApp@msncc"/> </a>  
-			 <span>WhatsApp</span></li>
-			 <li> <a href="#" target="_blank"><img src="imgs/h.png" alt="Hangouts@msncc"/> </a>  
-			 <span>Hangouts</span></li>
-			 <li onclick="cMess('skype')"> <a style="opacity:1;" target="_blank"><img src="imgs/ms.png" alt="Skype@msncc"/> </a>  
-			 <span>Skype</span></li>
-			 <li> <a href="#" target="_blank"><img src="imgs/gmail.png" alt="Gmail@msncc"/> </a>  
-			 <span>Gmail</span></li>
-			 <li> <a href="#" target="_blank"><img src="imgs/yt.png" alt="Youtube@msncc"/> </a>  
-			 <span>Youtube</span></li>
-		   </ul>
-		</div>
-		<div class="foot_box for4">
-
-		  <ul class="top-ico">
-			
-		   </ul>
-		</div>	
-	  </div>
-   </div>
-	
 	 <p style="font-size:22px; text-align:center;margin-bottom:10px;">msncc</p>
 	 <p style="font-size:22px; text-align:center;margin-bottom:50px;">Pursue new Life</p>
 </div>
@@ -285,7 +255,10 @@ html,body{scroll-behavior:smooth;}
 <div class="right0"></div>
 </div>
 <script type="text/javascript" language="JavaScript">
-   document.getElementById("gPic").innerHTML = "<a><img src='imgs/"+Math.round(Math.random()*5)+".gif'></a>";
+	function By(id){
+		return document.getElementById(id);
+	}
+   By("gPic").innerHTML = "<a><img src='imgs/"+Math.round(Math.random()*5)+".gif'></a>";
 	var firC = scrollTag = 0;
 	window.onscroll = function() {
 		scrollTag = document.documentElement.scrollTop || document.body.scrollTop;
@@ -293,22 +266,20 @@ html,body{scroll-behavior:smooth;}
 			case 0:
 			if(scrollTag >= 200){
 				firC = 1;
-				document.getElementById("dTop").style.display = "none";
-				document.getElementById("uTop").style.display = "block";
+				By("dTop").style.display = "none";
+				By("uTop").style.display = "block";
 			}
 			case 1:
 			if(scrollTag < 200){
 				firC = 0;
-				document.getElementById("dTop").style.display = "block";
-				document.getElementById("uTop").style.display = "none";
+				By("dTop").style.display = "block";
+				By("uTop").style.display = "none";
 			}
 			break;
 		}
 	}
-	 By("cNav").innerHTML = By("mNav").innerHTML;
-function By(id){
-	return document.getElementById(id);
-}
+	By("cNav").innerHTML = By("mNav").innerHTML;
+
 var st = speed = num = 0;
 function fadeOut(cVal){
 	By("tempT").style.display = "block";
@@ -325,18 +296,41 @@ function fadeOut(cVal){
 		}
 	},speed);
 }
-function cMess(val, m){
-	var cTArea = document.createElement("input"); 
-	cTArea.setAttribute("value", val); 
-	document.body.appendChild(cTArea); 
-	cTArea.select();
-	document.execCommand("copy"); 
-	document.body.removeChild(cTArea);
-	if(m == null){
-		fadeOut(val+"已複製");
-	}else{
-		fadeOut(m);
+function dRept(arr) {
+ return arr.filter(
+	function(item, index, arr) {
+		return arr.indexOf(item, 0) === index;
+	});
+}
+var arr = [],vList = "";
+function wReS(){
+	vList = "";
+	for(var i=0; i<arr.length; i++){
+		vList += arr[i];
 	}
+	By("RecV").innerHTML = vList;
+}
+function cSdata(){
+	if(localStorage.rect != undefined){
+		vList = localStorage.rect;
+		arr = JSON.parse(vList);
+		if(arr.length >= 4){
+			arr.splice(0, 1);  
+		}
+	}
+}
+cSdata();
+arr = dRept(arr);
+wReS();
+var ele = document.getElementsByTagName("li");
+for(var i = 0; i < ele.length; i++){
+	(function(j){
+		ele[j].onclick=function(){
+			arr.push("<li>"+ele[j].innerHTML+"</li>");
+			vList = JSON.stringify(arr);
+			localStorage.rect = vList;   
+		}
+	})(i);
 }
 </script> 
 </body>

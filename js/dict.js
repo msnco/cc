@@ -45,7 +45,10 @@ function getNum(){
 	}
 	fdArr.reverse();
 }
-
+function clearSer(){
+	localStorage.removeItem("fdArr");
+   localStorage.removeItem("strArr");
+}
 function By(id){return document.getElementById(id);}
 function getVal(){return By("searchTxt").value;}
 
@@ -202,8 +205,8 @@ function getWord(val){
 		case "":
 		d0.wRval = 0;
 		d1.wRval = 0;
-		localStorage.clear();
-		//localStorage.removeItem("fdArr");
+	//	localStorage.clear();
+		clearSer();
 		strArr = {};
 		getNum();
 		pageNums = fdArr.length;

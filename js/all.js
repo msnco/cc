@@ -108,7 +108,9 @@ function isstore(){
 //isstore();
 
 function clearSer(){
-   localStorage.clear();
+  // localStorage.clear();
+   localStorage.removeItem("arr");
+   localStorage.removeItem("setResu");
 	localStorage.lang = lang;
 }
 //clearSer();
