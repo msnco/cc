@@ -573,7 +573,7 @@ a#next:before{content:'Next'; }
  .newsAllTitle p{font-size:16px; height:44px; 
  display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;} 
  #newsAll{margin-top:25px;}
- #newsAll li{float:left; width:22%; padding:0 5px; overflow:hidden;text-align:center;}
+ #newsAll li{float:left; width:30%; padding:0 5px; overflow:hidden;text-align:center;}
  .imgSize{overflow:hidden; margin-top:5px;height:100%; }
  .isms{margin-top:70px; }
  .aLists{text-align:center; word-wrap:break-word;  word-break:break-all;  line-height:35px; }
