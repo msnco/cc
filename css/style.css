@@ -74,8 +74,8 @@ pre{
     height: 100%;
     top: 0;
     left: 0;
-    background-image:url(../imgs/bg.jpg);
-    background-size: cover;
+    background-image:url(../imgs/bg.png);
+  /*   background-size: cover; */
     z-index: -1;
 	 
 	-webkit-animation-name: fade1; 
