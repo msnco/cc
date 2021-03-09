@@ -364,5 +364,18 @@ function showView(){
 }
 showView();
 /**/
-
 /*end*/
+function Lmess(){
+	var script = document.createElement('script');
+	var gitalk = new Gitalk({
+	  clientID: 'b6344f0ed5b9c26aad07',
+	  clientSecret: 'a4b3c3d5f7d76319e5256b84e3e2dc07c593b946',
+	  repo: 'message',
+	  owner: 'msnco',
+	  admin: ['msnco'],
+	  id: md5(location.pathname),      // Ensure uniqueness and length less than 50
+	  distractionFreeMode: false  // Facebook-like distraction free mode
+	})
+	gitalk.render('container0');
+}
+Lmess();
