@@ -23,7 +23,7 @@ li{margin:0;padding:0;list-style-type:none;}
 border:0px; width: 112px;line-height: 38px;font-size:0px;}
 .ctrl0 li{
 display:inline-block;
-font-size: 22px; height: 110px; background: #7181992e; min-width: 110px;
+font-size: 22px; height: 110px; background: #262626; min-width: 110px;
 text-align: center; margin: 15px;border-radius: 50%;overflow:hidden ;white-space: nowrap!important;}
 .b-e{background:#0000001a;}
 .b-e a{display:block;width:100%;height:100%; line-height:110px; font-family:fangsong;background:url(imgs/1.jpg); background-position:center;}
@@ -311,13 +311,11 @@ function cSdata(){
 	if(localStorage.rect != undefined){
 		vList = localStorage.rect;
 		arr = JSON.parse(vList);
-		if(arr.length >= 4){
-			arr.splice(0, 1);  
-		}
 	}
 }
 cSdata();
 arr = dRept(arr);
+if(arr.length >= 4){arr.splice(0, 1);}
 wReS();
 var ele = document.getElementsByTagName("li");
 for(var i = 0; i < ele.length; i++){
