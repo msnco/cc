@@ -147,5 +147,24 @@
 <div class="right0"></div>
 </div>
 <script src="../js/up.js"></script> 
+<script>
+fetch('https://misty-cell-eb8c.msncc.workers.dev/?https://github.com/login/oauth/access_token', {
+  method: 'post',
+  headers: {
+    'x-foo': 'bar',
+    'x-bar': 'foo',
+    'x-cors-headers': JSON.stringify({
+      // allows to send forbidden headers
+      // https://developer.mozilla.org/en-US/docs/Glossary/Forbidden_header_name
+      'cookies': 'x=123'
+    }) 
+  }
+}).then(res => {
+  // allows to read all headers (even forbidden headers like set-cookies)
+  const headers = JSON.parse(res.headers.get('cors-received-headers'))
+  console.log(headers)
+  return res.json()
+}).then(console.log)
+</script>
 </body>
 </html>
