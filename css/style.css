@@ -216,6 +216,7 @@ a.full{position: absolute;left: 0;top: 0;height: 100%;width: 100%;z-index: 9;bac
 	background-position: 95% 2%;
 	background-color: black; /*#000000cc*/
 	z-index: 990;
+	opacity: 0.8;
 }
 .nav_icon{
 	display: none;
