@@ -72,6 +72,7 @@ html,body{scroll-behavior:smooth;}
 
 </div>
 <div class="b-e"> 
+	<div style="height:50px;overflow:hidden;clear:both;"><div id="pNavC"></div></div>
 	<div class="navC pv">
 	<span>Page views</span>
 	</div> 
@@ -327,6 +328,25 @@ for(var i = 0; i < ele.length; i++){
 		}
 	})(i);
 }
+
+var pNav = By("cNav");  
+var pNavC = By("pNavC");  
+//let maxLen = pNavC.scrollWidth - pNavC.offsetWidth;
+var startArea = 0;
+pNavC.onmousedown = function(ev) {  
+	var sEv = ev || event;  
+//	sEv.stopPropagation();
+	startArea = sEv.offsetX;  // 点击时位置
+	pNavC.onmousemove = function (ev){
+		var sEv = ev || event; 			
+		var dis = (startArea - sEv.offsetX)*4;  //sEv.offsetX 移动松开位置
+		pNav.scrollLeft += dis;
+	};
+	pNavC.onmouseup = function() {
+		pNavC.onmousemove = null;
+		pNavC.onmouseup = null;
+	};
+};
 </script> 
 </body>
 </html>
