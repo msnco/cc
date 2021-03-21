@@ -410,10 +410,10 @@ function cHant(){
 	var tempW ="",newW = "",sCt = "";
 	for(var i=0; i<inputVal.length; i++){
 		tempW = inputVal.substring(i,i+1);
-		sCt = hans[0].indexOf(tempW);
+		sCt = hans[1].indexOf(tempW);
 		if(tempW != " "){
 			if(sCt != -1){
-				newW += hans[1][sCt];
+				newW += hans[0][sCt];
 			}else{
 				newW += tempW;
 			}
