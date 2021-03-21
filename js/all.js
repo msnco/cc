@@ -184,21 +184,11 @@ function sessExise(){
 
 /*new123*/ 
 function defpage() {
-	var dp = [];
-	/* 
-	for(var j = 0; j < tLen.length; j++ ){    
-	for(var i = 1; i <= tLen[j]; i++){
-		arr.push((j+1)+"_"+i); 
-		arr0.push( dtp[j][(j+1)+"_"+i][0][lang] ); 	
-	}
-	} */
 	for(var i = 0; i < uTime2.length; i++){
-		dp = uTime2[i].split(":");
-		arr.push((dp[0])+"_"+dp[1]); 
-		arr0.push( dtp[dp[0]-1][(dp[0])+"_"+dp[1]][0][lang] ); 	
+		var cNum = uTime2[i].substring(0,uTime2[i].lastIndexOf("_"));
+		arr.push(uTime2[i]); 
+		arr0.push(dtp[cNum-1][uTime2[i]][0][lang]); 	
 	}
-//	arr.reverse();
-//	arr0.reverse();//倒序排序
 } 
 
 if(localStorage.selCat == undefined){
