@@ -89,7 +89,7 @@ function wHome(){
 		for(var j=0; j<sList; j++){
 			//cName = (i+1)+"_"+(dLen-j); 		
 			cName = (i+1)+"_"+uTime[i][j];
-			hdiv += "<div class='ser_box'><span class='cTag'>"+dtp[i][cName][0]["1"]+"</span><a class='full' href='file/"+fName+cName+".html'></a><div class='img'><img src='picture/view/"+fName+cName+"-1.jpg' alt='"+dtp[i][cName][0][lang]+"'/><span>"+dtp[i][cName][0][lang]+"</span><div class='box_layer'></div></div><p>"+dtp[i][cName][0][lang]+"</p></div>";
+			hdiv += "<h2><div class='ser_box'><span class='cTag'>"+dtp[i][cName][0]["1"]+"</span><a class='full' href='https://msncc.xyz/file/"+fName+cName+".html'></a><div class='img'><img src='https://msncc.xyz/picture/view/"+fName+cName+"-1.jpg' alt='"+dtp[i][cName][0][lang]+"'/><span>"+dtp[i][cName][0][lang]+"</span><div class='box_layer'></div></div><p>"+dtp[i][cName][0][lang]+"</p></div></h2>";
 		}
 		resH += hOut+hdiv+"</div></div>"+"<div class='moreC' onclick='showCat("+(i)+")'><span>More</span></div>";
 		hdiv = "";
