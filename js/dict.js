@@ -801,3 +801,4 @@ if(pName != "dict" && pName != "cus"){
 		By("aBtn").innerHTML += "<a class='btn_2' id='back' href='javascript:history.go(-1)' onclick='clearBtn()'></a>";
 	}
 }
+function Lmess(){new Waline({el:"#container0",path:location.pathname,serverURL:"https://message6.vercel.app/",highlight:false,emojiCDN:"../imgs/face/"})}Lmess();
