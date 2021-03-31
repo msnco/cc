@@ -829,10 +829,14 @@ border-radius: 10px 0 20px 0;text-align: center;line-height: 40px;overflow: hidd
 #mNav{width: 80%;height: 500px;background: #e9e9e9;top: -50px; position: relative;}
 
 /*評論覆蓋*/
-.v[data-class=v] .emoji, .v[data-class=v] .vemoji{max-width:33px!important;}
-.v[data-class=v] *{line-height:2.3;}.v[data-class=v] .vwrap .vemojis{padding-bottom:0!important;}
-.v[data-class=v] .vwrap .vemojis i{width:45px!important;}
+
+.v[data-class=v] .vemojis i{width:45px!important;}
+.v[data-class=v] .vemoji{max-width:33px!important;}
 .v[data-class=v] .veditor{font-size:1.2em!important;color:#a2a2a2!important;}
+.v[data-class=v] p{font-size:2em!important;color:#417e95!important;}
+.v[data-class=v] .vnick,.vinput{font-size:18px!important; color:#d57633!important;}
+.v[data-class=v] .at{font-size:15px!important;}
+.v[data-class=v] .vsys{color:#818181!important;}
 /*---------------------------------------自適應----------------------------------------*/
 @media screen and (min-width: 1920px) {
 	body{margin:0 auto;}
