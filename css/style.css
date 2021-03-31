@@ -832,6 +832,7 @@ border-radius: 10px 0 20px 0;text-align: center;line-height: 40px;overflow: hidd
 .v[data-class=v] .emoji, .v[data-class=v] .vemoji{max-width:33px!important;}
 .v[data-class=v] *{line-height:2.3;}.v[data-class=v] .vwrap .vemojis{padding-bottom:0!important;}
 .v[data-class=v] .vwrap .vemojis i{width:45px!important;}
+.v[data-class=v] .veditor{font-size:1.2em!important;color:#a2a2a2!important;}
 /*---------------------------------------自適應----------------------------------------*/
 @media screen and (min-width: 1920px) {
 	body{margin:0 auto;}
