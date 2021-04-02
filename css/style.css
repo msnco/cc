@@ -15,7 +15,6 @@ input,button,textarea{font-family:"tt_1",Arial,'微软雅黑';}
 ::-webkit-scrollbar-thumb:hover{background-color:#fff;}
 ::-webkit-scrollbar{background-color: #00000080;width:10px;}
 
-#container0{display:none!important;}
 html{-ms-touch-action:manipulation; touch-action:manipulation; font-size:100%}
 body{position:relative; font-family:'tt',Arial,'微软雅黑'; color:#aab9cc; background-color:#262626; max-width:1920px; /*background-image:url(../imgs/bg.jpg ); background-repeat:no-repeat; background-attachment:fixed; */ 
 /*background-size: 100% auto; */}
