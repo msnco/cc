@@ -79,18 +79,25 @@ var hOut = hdiv = cName = "";
 var sList = 1;
 function wHome(){
 	var dLen = 1;
-	var resH = ""; 
+	var resH = "",ffname = "",noF = "",tag0 = ""; 
 	hOut = cName = "";
 	By("hCat").innerHTML = "";
 	for(var i=0; i<dtp.length; i++){
 		dLen = Object.keys(dtp[i]).length;
 		hOut = "<div class='pd home'><div class='pd_title'><p class='TL'>"+text1["mKey"+(i+1)+lang]+"</p></div> <div class='ser_group'>";
 		if(dLen > 6){sList = 6;}else{sList = dLen;}
-		for(var j=0; j<sList; j++){
-			//cName = (i+1)+"_"+(dLen-j); 		
+		for(var j=0; j<sList; j++){	
 			cName = (i+1)+"_"+uTime[i][j];
-			hdiv += "<h2><div class='ser_box'><span class='cTag'>"+dtp[i][cName][0]["1"]+"</span><a class='full' href='file/"+fName+cName+".html'></a><div class='img'><img src='picture/view/"+fName+cName+"-1.jpg' alt='"+dtp[i][cName][0][lang]+"'/><span>"+dtp[i][cName][0][lang]+"</span><div class='box_layer'></div></div><p>"+dtp[i][cName][0][lang]+"</p></div></h2>";
+			ffname = "file/"+fName+cName+".html";
+			tag0 = "<span class='cTag'>"+dtp[i][cName][0]["1"];
+			if(i == 1){
+				ffname = dtp[i][cName][0]["2"];
+				noF = "referrerpolicy=no-referrer";
+			//	tag0 = "";
+			}
+			hdiv += "<h2><div class='ser_box'>"+tag0+"</span><a class='full' href='"+ffname+"'"+noF+"></a><div class='img'><img src='picture/view/"+fName+cName+".jpg' alt='"+dtp[i][cName][0][lang]+"'/><span>"+dtp[i][cName][0][lang]+"</span><div class='box_layer'></div></div><p>"+dtp[i][cName][0][lang]+"</p></div></h2>";
 		}
+		noF = "";
 		resH += hOut+hdiv+"</div></div>"+"<div class='moreC' onclick='showCat("+(i)+")'><span>More</span></div>";
 		hdiv = "";
 	}

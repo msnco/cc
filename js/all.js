@@ -266,7 +266,7 @@ function gotopage(nextNums){
 	}
 	
 	for(var i=indexVal; i<valTwo; i++){ 
-		creatImg += "<li><a href='file/"+fName+arr[i]+".html'> <div class='imgSize'><img src='picture/view/"+fName+arr[i]+"-1.jpg'/></div></a><div class='newsAllTitle'><p>"+arr0[i]+"</p></div></li>";
+		creatImg += "<li><a href='file/"+fName+arr[i]+".html'> <div class='imgSize'><img src='picture/view/"+fName+arr[i]+".jpg'/></div></a><div class='newsAllTitle'><p>"+arr0[i]+"</p></div></li>";
 	}
 	creatLists = creatLists + creatImg;
 	By("newsAll").innerHTML = creatLists;
