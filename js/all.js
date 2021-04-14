@@ -75,10 +75,11 @@ By("isMenu1").onclick = function(){
 function showCat(cVal){
 	cVal = parseInt(cVal);
 	arr = []; arr0 = [];
-	var gT = "";
-	for(var i=0; i<tLen[cVal]; i++){
-		gT = dtp[cVal][(cVal+1)+"_"+(i+1)][0][lang];
-		arr.push((cVal+1)+"_"+(i+1));
+	var gT = "", gT0 = "";
+	gT0 = uTime[cVal];
+	for(var i=0; i<uTime[cVal].length; i++){
+		gT = dtp[cVal][(cVal+1)+"_"+(gT0[i])][0][lang];
+		arr.push((cVal+1)+"_"+(gT0[i]));
 		arr0.push(gT);
 	}
 	amountPage = Math.ceil(arr.length/showNums);
