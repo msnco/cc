@@ -968,7 +968,7 @@ border-radius: 10px 0 20px 0;text-align: center;line-height: 40px;overflow: hidd
 	
 /* 	.istxt{padding:0 10px;} */
 	/* .isUnder{margin-top:100px;} */
-	.video0{width:100%; margin-top:100px;}
+	.video0{width:100%; /* margin-top:100px; */}
 	
 	.Lpic{width:40%;}
    .tdTxt{width:60%;}
