@@ -74,7 +74,22 @@ function showCat(cVal){
 	location.href = "news_all.html";
 }
 /**/
-
+function picLazy(){
+echo.init({
+	offset: 100,
+	throttle: 250,
+	unload: false,
+	callback: function (element, op) {
+	// console.log(element, 'has been', op + 'ed')
+		if(op === 'load') {
+			element.classList.add('loaded');
+		}else{
+			element.classList.remove('loaded');
+		}
+	}
+  });
+}	
+picLazy();
 var hOut = hdiv = cName = "";
 var sList = 1;
 function wHome(){
@@ -95,7 +110,7 @@ function wHome(){
 			//	noF = "referrerpolicy=no-referrer";
 			//	tag0 = "";
 			//}
-			hdiv += "<h2><div class='ser_box'>"+tag0+"</span><a class='full' href='"+ffname+"'></a><div class='img'><img src='picture/view/"+fName+cName+".jpg' alt='"+dtp[i][cName][0][lang]+"'/><span>"+dtp[i][cName][0][lang]+"</span><div class='box_layer'></div></div><p>"+dtp[i][cName][0][lang]+"</p></div></h2>";
+			hdiv += "<h2><div class='ser_box'>"+tag0+"</span><a class='full' href='"+ffname+"'></a><div class='img'><img class='lazy' src='imgs/load.gif' data-echo='picture/view/"+fName+cName+".jpg' alt='"+dtp[i][cName][0][lang]+"'/><span>"+dtp[i][cName][0][lang]+"</span><div class='box_layer'></div></div><p>"+dtp[i][cName][0][lang]+"</p></div></h2>";
 		}
 		//noF = "";
 		resH += hOut+hdiv+"</div></div>"+"<div class='moreC' onclick='showCat("+(i)+")'><span>More</span></div>";
