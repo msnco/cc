@@ -7,6 +7,22 @@ function taa(){
 	}
 }
 taa();
+function picLazy(){
+echo.init({
+	offset: 100,
+	throttle: 250,
+	unload: false,
+	callback: function (element, op) {
+	// console.log(element, 'has been', op + 'ed')
+		if(op === 'load') {
+			element.classList.add('loaded');
+		}else{
+			element.classList.remove('loaded');
+		}
+	}
+  });
+}	
+picLazy();
 var ctrlImg = pageNums;
 //if(ctrlImg < pageNums){ctrlImg = pageNums;}
 var amountPage = Math.ceil(ctrlImg/showNums);
@@ -104,24 +120,8 @@ function fadeOut(cVal){
 		}
 	},speed);
 }
-function picLazy(){
-echo.init({
-	offset: 100,
-	throttle: 250,
-	unload: false,
-	callback: function (element, op) {
-	// console.log(element, 'has been', op + 'ed')
-		if(op === 'load') {
-			element.classList.add('loaded');
-		}else{
-			element.classList.remove('loaded');
-		}
-	}
-  });
-}	
-picLazy();
-function isstore(){
-}
+
+function isstore(){}
 //isstore();
 
 function clearSer(){
@@ -282,7 +282,6 @@ function gotopage(nextNums){
 	if(arr.length < valTwo){
 		valTwo = arr.length;
 	}
-	//<img class='lazy' src='../imgs/load.gif' data-echo='../picture/view/
 	for(var i=indexVal; i<valTwo; i++){
 		gTstr = arr[i].substring(0,1);
 		creatImg += "<li><a href='file/"+fName+arr[i]+".html'> <div class='imgSize'><img class='lazy' src='imgs/load.gif' data-echo='picture/view/"+fName+arr[i]+".jpg'/></div></a><div class='newsAllTitle'><p>"+arr0[i]+"</p><span class='tView'>"+dtp[gTstr-1][arr[i]][0]["1"]+"</span></div></li>";
