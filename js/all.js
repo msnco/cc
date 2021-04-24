@@ -291,6 +291,7 @@ function gotopage(nextNums){
 	creatImg = "";
 	setpage();
 	location.href = "#top0";
+	picLazy();
 }
 
 if(localStorage.curView != undefined){
