@@ -13,7 +13,13 @@ if(localStorage.lang == undefined){
 }else{
 	lang = localStorage.lang;
 }
-
+function hbar(){
+	if(hN != ""){
+		By("hNid").innerText = hN;
+		By("hNid").style.display = "block";
+	}
+}
+hbar();
 function cLang(cLan){
    lang = cLan;
 	localStorage.lang = lang;
