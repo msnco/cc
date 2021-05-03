@@ -579,14 +579,10 @@ a#next:before{content:'Next'; }
  .newsAllTitle p{font-size:30px;
  display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3; line-height:44px; overflow:hidden;min-height:165px;}
  .newsAllTitle span{
-	background: #225d87;
-    font-size: 20px;
-    border-radius: 20%;
-    width: 135px;
-    height: 40px;
-    display: inline-block;
-    line-height: 40px;
-    text-align: center}
+	background: #225d87;font-size: 20px;
+    border-radius: 20%; width: 135px;height: 40px;
+    display: inline-block;line-height: 40px;
+    text-align: center;overflow:hidden;}
  #newsAll{margin-top:25px;}
  #newsAll li{padding:0 5px; overflow:hidden;}
  .imgSize{overflow:hidden; margin-top:5px;height:100%;float:left; margin:0 20px 15px 0;}
