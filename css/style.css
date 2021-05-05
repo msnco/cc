@@ -137,6 +137,7 @@ a.full{position: absolute;left: 0;top: 0;height: 100%;width: 100%;z-index: 9;bac
 	color: #ababab;
 	z-index: 99;
 } */
+a.hN:hover{/* background:#1f5faf; */opacity:0.5;color:#ffebcd;}
 .hN{
 	width: 100%;height: auto;
     background: #6d3d3d; padding: 20px 10px;
