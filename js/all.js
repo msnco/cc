@@ -3,8 +3,8 @@ var pageNums = 0;
 function taa(){
 	for(var i=0; i<dtp.length; i++){
 		tLen.push(Object.keys(dtp[i]).length);
-		pageNums += tLen[i];
 	}
+	pageNums = uTime2.length;
 }
 taa();
 function picLazy(){
@@ -343,9 +343,9 @@ function fnDelay(enDown){
 	}, timeoff)
 	timeoff = 50;   
 } 
-
+var tureN = matchRes;
 var curTag = pInt0 = pInt1 = matNum = 0;
-var jword = tNum = cuted = aLen = newI = 0;
+var jword = tNum = aLen = newI = 0;
 var h = n = matTag = 0;
 var jieguo = -1;
 /*search*/
@@ -397,14 +397,24 @@ function coverCheck(i,s){
 	}
 }
 function arrSum(){
-	for(var i=0; i<matWord.length; i++){
-		aLen += matWord[i].length;
+	var lenEst = 0;
+	if(matWord.length >=1){
+		for(var i=0; i<matWord.length; i++){
+			if(matWord[i].length > lenEst){
+				lenEst = matWord[i].length;
+			}
+			aLen += (matWord[i].length);
+		}
+		matNum = matWord.length;
+		aLen += lenEst*100; // 
+		//console.log(str+" 字符長度總和"+aLen+" 數量"+matWord.length+"匹配次數="+matNum);
+		//console.log(matWord);
 	}
 }
 function addWord(i,j){
 	//if(matWord.length >= 1){console.log(i+" 匹配内容= "+matWord+" 匹配次數 = "+matNum);}
 	if(arr.length == 0 && matNum == 1){
-		arrTemp.push((j+1)+"_"+i); arrLen0.push(aLen); strTemp.push(str0);  
+		arrTemp.push((j+1)+"_"+i); arrLen0.push(aLen); strTemp.push(str0);
 	}else if(matNum >= 2){
 		arr.push((j+1)+"_"+i);   
 		arrLen.push(aLen);    
@@ -435,7 +445,6 @@ function cHant(){
 /*search end*/
 /*空格分詞,不分開視爲1個單詞*/
 function serCon(enDown){
-
 	resuT = 0;
 	newI = 0;
 	arr = [];
@@ -453,6 +462,7 @@ function serCon(enDown){
 if(inputVal.length >= matchRes){
 	for(var j=0; j<tLen.length; j++){
 	for(var i=1; i<=tLen[j]; i++){
+	if(dtp[j][(j+1)+"_"+i][0]["en"] != "00"){
 	jword = 0;
 	matNum=0;
 	aLen = 0;
@@ -476,7 +486,7 @@ if(inputVal.length >= matchRes){
 	txtstore = arrss[newI];   // 取當前 數據串
 	newI++;
 	for(var s=0;s<cutArr.length;s++){  
-		n=0; tNum=0; cuted = 0; 
+		n=0; tNum=0; 
 		wExist(s,matWord);
 		for( h=1;h<=cutArr[s].length-(matchRes-1); h++){ 
 			if(jword == 1){jword = 0; break;}
@@ -489,18 +499,23 @@ if(inputVal.length >= matchRes){
 					n++;
 					matTag++;
 					if(jieguo != -1){
-						coverCheck(i,s);
-						if(tNum == 0){            // null
-							if(cuted == 0){matNum++;}
-							matWord.push(searchStr);
-							n = cutArr[s].length+1;   
-							overcheck.push(jieguo+"-"+searchStr);
+						preStr = str.charAt(jieguo-1).replace(/\s*/g,"");
+						nextStr = str.charAt(jieguo+searchStr.length).replace(/\s*/g,"");
+						if(searchStr.match(regZh) != null){ //漢字另外處理
+						tureN = matchRes;}else{tureN = matchRes+2;}
+						if(searchStr.length >= tureN || preStr == "" && nextStr == "" ){
+							coverCheck(i,s);
+							if(tNum == 0){            // null
+								matWord.push(searchStr);
+								n = cutArr[s].length+1;   
+								overcheck.push(jieguo+"-"+searchStr);
+							}
 						}
 					}
 				}
-				if(matTag-1 >= matchRes){  // 後退>matchRes,迂迴 以後面的字符繼續匹配
+				if(matTag-1 >= matchRes){  // 後退次数>matchRes,提取繼續匹配
 					cutArr[s] = cutArr[s].substr(searchStr.length+(h-1),cutArr[s].length);  // (h-1)+1去掉h,前進1位
-					h = 0; n = 0; matTag = 0; cuted = 1;
+					h = 0; n = 0; matTag = 0;
 				}else{
 					h = cutArr[s].length;
 					matTag = 0;
@@ -514,6 +529,7 @@ if(inputVal.length >= matchRes){
 	} 
 	arrSum();
 	addWord(i,j);
+	}
 	}
 	}
 	/*pageNums 結束*/
