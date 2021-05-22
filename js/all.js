@@ -596,7 +596,7 @@ if(inputVal.length >= matchRes){
 	By("data_list").style.display="none";  
 }
 serResuCount = 0;
-if(resuT == 0 && enDown == "ct0"){
+if(resuT == 0 || enDown == "ct0"){
 	arr = defArr;
 	arr0 = defArr0;
 }
