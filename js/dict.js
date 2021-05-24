@@ -801,4 +801,5 @@ if(pName != "dict" && pName != "cus"){
 		By("aBtn").innerHTML += "<a class='btn_2' id='back' href='javascript:history.go(-1)' onclick='clearBtn()'></a>";
 	}
 }
-function Lmess(){new Waline({el:"#container0",path:location.pathname,serverURL:"https://data-zeta.vercel.app/",highlight:false,emojiCDN:"../imgs/face/"})}Lmess();
+function Lmess(){new Waline({el:"#container0",path:location.pathname,serverURL:"https://data-zeta.vercel.app/",highlight:false,emojiCDN:"../imgs/face/"})}
+if(pName != "cus" && pName !="dict"){Lmess();}
