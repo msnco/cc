@@ -503,7 +503,7 @@ if(inputVal.length >= matchRes){
 						nextStr = str.charAt(jieguo+searchStr.length).replace(/\s*/g,"");
 						if(searchStr.match(regZh) != null){ //漢字另外處理
 						tureN = matchRes;}else{tureN = matchRes+2;}
-						if(searchStr.length >= tureN || preStr == "" && nextStr == "" ){
+						if(searchStr.length >= tureN || cutArr[s] == searchStr || preStr == "" && nextStr == "" ){
 							coverCheck(i,s);
 							if(tNum == 0){            // null
 								matWord.push(searchStr);
