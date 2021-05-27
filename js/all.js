@@ -513,7 +513,7 @@ if(inputVal.length >= matchRes){
 						}
 					}
 				}
-				if(matTag-1 >= matchRes){  // 後退次数>matchRes,提取繼續匹配
+				if(matTag-1 >= tureN){  // 後退次数>matchRes,提取繼續匹配
 					cutArr[s] = cutArr[s].substr(searchStr.length+(h-1),cutArr[s].length);  // (h-1)+1去掉h,前進1位
 					h = 0; n = 0; matTag = 0;
 				}else{
