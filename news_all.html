@@ -23,6 +23,12 @@
 .list0,.list1,.current{padding:0 20px;}.list1{color:#cacaca;}.ctrl{clear:both;}
 .off{display:none;}
 html,body{scroll-behavior:smooth;}
+.waline-widget-list{padding:0 10px;}
+.waline-widget-item{background:#2f2f2f; margin:20px 0; display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3; overflow:hidden;}
+.waline-widget-item p{font-size:17px; display:block;  color:#9a9a9a;}
+@media screen and (max-width: 1024px) { 
+	#waline-recent{display:none;}
+}
 </style>
 </head> 
 <body>
@@ -32,6 +38,7 @@ html,body{scroll-behavior:smooth;}
 <div class="t-main">
 <div class="left0"> 
 	<div class="logo"><a href="index.html"><img src="imgs/logo.png" alt="index.html"></a></div>
+	<div id="waline-recent"></div>
 	<div class="nav_footer"> 
 	<div class="follow">
 	<a href="#" onclick="window.open('https://twitter.com/home?status=' + encodeURIComponent(window.location),'_blank'); return false"> <span class="m_tw" title="Twitter"></span></a>
@@ -134,5 +141,15 @@ html,body{scroll-behavior:smooth;}
 <div class="right0"></div>
 </div>  <!-- -->
 <script src="js/all.js"></script> 
+<!-- <script defer src='js/m0.js'></script> -->
 </body>
+<!-- <script type="text/javascript" language="JavaScript">
+window.addEventListener('load', function () {
+    Waline.Widget.RecentComments({
+      el: '#waline-recent',
+      serverURL: 'https://data-zeta.vercel.app',
+      count: 6,
+    });
+  });
+</script> -->
 </html>
