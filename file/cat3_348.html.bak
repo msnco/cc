@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta content="telephone=no" name="format-detection" /> 
+  <meta content="email=no" name="format-detection" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+  <meta name="apple-mobile-web-app-capable" content="yes" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes"/>
+  <meta name="description" content="FontLab 是一款专业高效的实用型字体制作编辑工具,能够轻松地制作出各种独具创意的字体學習版,破解學習版">
+<meta name="keywords" content="字体制作编辑，字体修改，FontLab學習版,破解學習版">
+<meta property="og:description" content="FontLab 是一款专业高效的实用型字体制作编辑工具,能够轻松地制作出各种独具创意的字体最新版,學習版,破解學習版純净綠色游戲,軟件,學習等資源分享下載@msncc美少女cc">
+<meta property="og:title" content="字体制作编辑，字体修改，FontLab最新版,學習版,破解學習版@msncc美少女cc">
+<meta property="og:site_name" content="msncc美少女cc">
+<title>字体制作编辑，字体修改，FontLab - 美少女cc | msncc</title>
+<link rel="shortcut icon" href="#"/> 
+<link rel="stylesheet" href="../css/style.css" />
+<!-- <link rel="stylesheet" href="../css/m.css" /> -->
+<script src="../js/m0.js"></script> 
+<script src="../js/detTxt.js"></script> 
+<script src="../js/pic.js"></script>   
+</head> 
+<body>
+<div class="bg_pic">
+<div class="bg_filter"></div>
+</div> 
+<div id="cbtn0" class="cbtn" onclick="creatEle('cWin')"><a href="javascript:;" alt="close"></a></div>
+<div id="Cus0" class="showdt">
+</div>
+<div class="t-main">
+<div class="left0">
+	<div class="logo">
+		<a href="../index.html"><img src="../imgs/logo.png" alt="主頁"/></a>
+	</div> 
+	<div class="nav_footer"> 
+		<div class="follow">
+		<a href="#" onclick="window.open('https://twitter.com/home?status=' + encodeURIComponent(window.location),'_blank'); return false"><span class="m_tw" title="Twitter"></span></a>
+
+		<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location),'_blank'); return false"> <span class="m_fb" title="Fb"></span></a>
+		</div>
+
+		<div class="copy">
+      Copyright@msncc<br/>
+      pursue NewLife
+      </div>
+	</div>
+</div> 
+
+<div class="center0">
+	<div class="nav"> 
+		<div class="nav_icon">
+			<a href="../news_all.html"><img src="../imgs/all.png" alt="搜索頁" /></a>
+		</div> 
+		<div class="side_close"></div> 
+		<ul id="isMenu2" class="off">
+		<li>
+			<div class="title">
+			<a href="../index.html" target="_self">主頁<em>Home</em></a>
+			</div>
+		</li>
+		<li class="">
+			<div class="title">
+			<a href="../news_all.html" target="_self">搜索<em>Search</em></a>
+			</div>
+		</li> 
+		<li class="">
+			<div class="title">
+			<a href="../nav.html" target="_self">導航<em>Navigation</em></a>
+			</div>
+		</li>
+		<li class="">
+			<div class="title">
+			<a href="../index.html#end0" target="_self">關於<em>Message</em></a>
+			</div>
+		</li>     
+		</ul> 
+	</div> 
+	<a name="top0"></a>  
+	<div class="catg_name">				
+		<!-- <a href="javascript:;" id="area0" onclick="otherStyle('0')">show</a> -->
+		<a href="javascript:;" id="area0">show</a>
+	</div> 
+	<span id="tempT" style="top:0;"></span>
+	<div class="side_r news_detail">
+	<div id="showArea0"></div>
+	<div id="showArea1">
+	<div class="pdetail">
+	<h1>字体制作编辑，字体修改，FontLab - 美少女cc | msncc</h1>
+	<div id="sVideo" class="video0"></div>
+<pre>
+<p class="dTitle"><span>介紹</span></p>
+<p></p>FontLab 是一款专业高效的实用型字体制作编辑工具，FontLab VI最新版功能强悍，能够帮助用户轻松地制作出各种独具创意的字体。FontLab VI软件便捷好用，提供了字体的创建、打开、修改、绘制等多种功能，让您快速对字体进行装饰，让字体变得更加美观好看。<div><p></p></div><div><br></div><div>Fontlab是一款专业的字体编辑器，可帮助您从头到尾创建字体，从简单的设计到复杂的项目，并为类型设计带来魔力。在该软件中提供了铅笔、钢笔、电动刷、电动刷笔等一些绘画工具来帮助用户对字体进行修剪、调整、修改、平滑等操作调整，更好的描绘出想要的字体轮廓，同时只要有了基本轮廓出来，就可以直观地进行编辑，更好的创造出独属自己的个性字体。</div><div><br></div><div>另外fontlab 7不仅继承了之前版本的所有功能，还新增了更多实用的新功能，例如，使用TypeRig增强您的FontLab，而TypeRig是一个强大的Python扩展，可促进对图层、轮廓、度量、锚点、参考线和文本的批处理，还有使用磁铁工具可手动添加提示UFO3和.glyphs导入/导出的详细改进，非常的实用。<br></div>
+
+链接: https://pan.baidu.com/s/1MSPUr324r0x1QwJPWBJeRg 提取码: b3pq
+
+https://cloud.189.cn/t/zyeIniuAZz2q
+<p class="dTitle"><span>選普通下載</span></p>
+<!--<a href="javascript:;" referrerpolicy="no-referrer" target="_blank"><img src="../imgs/d.png" alt="下載"/><em>Other 資源正趕來..</em></a> -->
+解壓: 
+msncc
+美少女cc
+</pre>
+<p class="disSty">
+分享學習資訊 或 資源,如有失效的,請留言  >   <br>更多下載通道正在更新....<br>資源收集于網絡,僅供學習研究,製作不易,若是喜歡,請考慮補上正版,再體驗免客戶端離綫暢玩。<br>
+可到steam 等平臺 搜索購買</p>
+	</div>
+	</div>
+	<div class="vL">
+		<!-- <a href="javascript:;" referrerpolicy="no-referrer" target="_blank"><img src="../imgs/vl0.png"/><em>視頻演示</em></a> -->
+	</div>
+<!--content end--> 
+	</div>
+	<div class="ctrl">
+	<a class="btn_2" id="back" href="javascript:history.go(-1)"></a>
+	<a class="btn_2" id="prev" onclick="prevPage();"> </a>
+	<a class="btn_2" id="next" onclick="nextPage();"></a>
+		<div class="clear"></div>
+	</div> 
+
+	<div class="header_info" id="uTop" style="display:none">
+		<a href="#top0"><img src="../imgs/down2.png"></a>
+	</div>
+	<div class="header_info" id="dTop" style="display:block;">
+		<a href="#end0"><img src="../imgs/down.png"></a>
+	</div>
+	<div id="
+	"></div>
+	<a name="end0"></a>
+	<div class="isUnder">	  
+		 <div class="pageInfo">
+			<div id="setpage"></div> <!-- Page info -->
+			<div id="btnArea"></div>
+			
+			<div class="jumpArea">
+			<span id="pageMount0"></span>
+			<input id="jump" type="text" placeholder="" value="" style="min-height:30px; font-size:23px; width:100px; text-align:center;"/>
+			<span id="pageMount"></span>
+			<a href="javascript:;" onclick="jumpPage()">Go</a>
+			</div>
+		  </div>
+		<!-- <div class="isms">
+				 Line:      
+		  <br/>Facebook:  
+		  <br/>Mail:  
+		</div>	 -->
+	</div>
+<!-- -->
+<div id="container0"></div>
+</div>
+<div class="right0"></div>
+</div>
+<script src="../js/up.js"></script> 
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta content="telephone=no" name="format-detection" /> 
+  <meta content="email=no" name="format-detection" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+  <meta name="apple-mobile-web-app-capable" content="yes" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes"/>
+  <meta name="description" content="觅长生是一款以修仙为主题的开放世界角色扮演游戏。 我们试图在游戏中恢复不朽的真实世界，为此我们创建了各种系统和游戏玩法。學習版,破解學習版">
+<meta name="keywords" content="觅长生，修仙游戏學習版,破解學習版">
+<meta property="og:description" content="觅长生是一款以修仙为主题的开放世界角色扮演游戏。 我们试图在游戏中恢复不朽的真实世界，为此我们创建了各种系统和游戏玩法。最新版,學習版,破解學習版純净綠色游戲,軟件,學習等資源分享下載@msncc美少女cc">
+<meta property="og:title" content="觅长生，修仙游戏最新版,學習版,破解學習版@msncc美少女cc">
+<meta property="og:site_name" content="msncc美少女cc">
+<title>觅长生，修仙游戏 - 美少女cc | msncc</title>
+<link rel="shortcut icon" href="#"/> 
+<link rel="stylesheet" href="../css/style.css" />
+<!-- <link rel="stylesheet" href="../css/m.css" /> -->
+<script src="../js/m0.js"></script> 
+<script src="../js/detTxt.js"></script> 
+<script src="../js/pic.js"></script>   
+</head> 
+<body>
+<div class="bg_pic">
+<div class="bg_filter"></div>
+</div> 
+<div id="cbtn0" class="cbtn" onclick="creatEle('cWin')"><a href="javascript:;" alt="close"></a></div>
+<div id="Cus0" class="showdt">
+</div>
+<div class="t-main">
+<div class="left0">
+	<div class="logo">
+		<a href="../index.html"><img src="../imgs/logo.png" alt="主頁"/></a>
+	</div> 
+	<div class="nav_footer"> 
+		<div class="follow">
+		<a href="#" onclick="window.open('https://twitter.com/home?status=' + encodeURIComponent(window.location),'_blank'); return false"><span class="m_tw" title="Twitter"></span></a>
+
+		<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location),'_blank'); return false"> <span class="m_fb" title="Fb"></span></a>
+		</div>
+
+		<div class="copy">
+      Copyright@msncc<br/>
+      pursue NewLife
+      </div>
+	</div>
+</div> 
+
+<div class="center0">
+	<div class="nav"> 
+		<div class="nav_icon">
+			<a href="../news_all.html"><img src="../imgs/all.png" alt="搜索頁" /></a>
+		</div> 
+		<div class="side_close"></div> 
+		<ul id="isMenu2" class="off">
+		<li>
+			<div class="title">
+			<a href="../index.html" target="_self">主頁<em>Home</em></a>
+			</div>
+		</li>
+		<li class="">
+			<div class="title">
+			<a href="../news_all.html" target="_self">搜索<em>Search</em></a>
+			</div>
+		</li> 
+		<li class="">
+			<div class="title">
+			<a href="../nav.html" target="_self">導航<em>Navigation</em></a>
+			</div>
+		</li>
+		<li class="">
+			<div class="title">
+			<a href="../index.html#end0" target="_self">關於<em>Message</em></a>
+			</div>
+		</li>     
+		</ul> 
+	</div> 
+	<a name="top0"></a>  
+	<div class="catg_name">				
+		<!-- <a href="javascript:;" id="area0" onclick="otherStyle('0')">show</a> -->
+		<a href="javascript:;" id="area0">show</a>
+	</div> 
+	<span id="tempT" style="top:0;"></span>
+	<div class="side_r news_detail">
+	<div id="showArea0"></div>
+	<div id="showArea1">
+	<div class="pdetail">
+	<h1>觅长生，修仙游戏 - 美少女cc | msncc</h1>
+	<div id="sVideo" class="video0"></div>
+<pre>
+<p class="dTitle"><span>介紹</span></p>
+
+<p>觅长生是一款以修仙为主题的开放世界角色扮演游戏。 我们试图在游戏中恢复不朽的真实世界，为此我们创建了各种系统和游戏玩法。</p>
+<p>独特的纸牌战斗和发展</p>
+<p>不寻常的纸牌战斗是试图在游戏中展示不朽的战斗。 在“ 觅长生”的纸牌战中，纸牌是世界上存在的五个光环元素的表达，并且可以通过消耗这五个光环元素来释放不同的咒语。</p>
+<p>在游戏中，有将近300种完全不同的咒语。 每个法术都有不同的效果，并且也有不同的光环要求。 如何在战斗中获得更多光环，如何更有效地利用这些光环是整个游戏战斗的核心策略。</p>
+<p>同时，对应于这近300种法术，有近200种不同的练习。 这些法术和练习的结合可以产生您可以尝试的无数种例程，并可以开发自己的例程。游戏的例程也是游戏战斗力发展的核心。</p>
+<p>真实的寿命和时间系统</p>
+<p>不朽的修炼者与天堂竞争生命，并与时间赛跑，以获得更长的寿命和寿命。 为了说明这一点，我们设计了一个实时系统，撤退练习，理解练习，完善炼金术并完成活动委托，所有这些都需要大量时间。</p>
+<p><br></p>
+<p>同时，随着时间的流逝，世界上将发生各种事件。 英雄协会每五年举行一次，恶魔的眼睛每20年睁开一次，古迹每1000年睁开一次。 朋友突破到金芯，学校的长辈未能突破元婴，突然摔倒等等。</p>
+<p><br></p>
+<p>只要您的生活还没有结束，您如何生活就取决于您自己。</p>
+<p>恢复的“大王国突破”游戏玩法</p>
+<p><br></p>
+<p>在培养神仙的世界中，“大王国突破”绝对是当务之急。 突破境界不仅是要延长寿命，增强力量，而且是生命形式的升华。</p>
+<p>因此，在每个领域中，我们都尽力恢复小说中突破领域的特定步骤。 因此，每个领域的突破都是精心设计的新游戏玩法。</p>
+<p><br></p>
+<p>炼金术和炼制游戏</p>
+<p>如果炼金术和炼制是简单合成的，那么培养仙人的意义何在？ 为了恢复炼金术的感觉，我们创建了全新的炼金术游戏玩法。 在此游戏中，炼金术不再仅限于长生不老药处方。 您可以通过不断测试药物，探索药物特性来探索精制高级药丸的方法； 对于您拥有的草药，您可以根据当地情况更改处方，以更方便地精制药丸； 您也可以使用低品位草药代替高品位草药，以获取更高的利润。</p>
+<p><br></p>
+<p>提炼也是一种完全不同的游戏方式，从收集物料到平衡物料的性能，再到最终的精炼产品，具有不同属性的物料在不同类型的设备下将表现出完全不同的特性。 至于如何选择比赛，则完全取决于您。</p>
+<p><br></p>
+<p>充满策略的交易系统</p>
+<p>NPC的个人偏好，城市商店中的高价购买，低价换高价易货，市场中的低价淘宝以及拍卖中的竞价策略 ，不同地区的物品稀缺程度等，共同构建了游戏中的业务系统。 有时，您可能不需要任何冒险。 您只需要一个出色的商业头脑，就足以支撑您培养永生的所有费用。</p>
+<p>丰富的剧情和冒险</p>
+<p><br></p>
+<p>我发现的铁剑不小心包含了元婴舞台僧侣的灵魂，但他从悬崖上掉下来，挖了高级怪物的恶魔药丸 。 理解数千年前在军事遗迹中久违的演习，或暗中聆听其他僧侣之间的争执，并想出一个“小黄牛在后面”的把戏……在“ 觅长生”的世界中， 您可以只是普通的耕种者，也可以是不断冒险的小说的主角。&nbsp;</p>
+<p>我们仍在努力填充这个世界上更多的冒险和情节，而在这些冒险和情节中，整个世界的背景正在逐步显现。</p><br><p></p>
+<p></p>
+链接: https://pan.baidu.com/s/1HOFhoFCZZSK0fpWMJvr7qA 
+提取码: c3rq
+
+https://cloud.189.cn/t/QBJJFj2EfMNn（访问码：5svs）
+<p class="dTitle"><span>選普通下載</span></p>
+<!--<a href="javascript:;" referrerpolicy="no-referrer" target="_blank"><img src="../imgs/d.png" alt="下載"/><em>Other 資源正趕來..</em></a> -->
+解壓: 
+msncc
+美少女cc
+</pre>
+<p class="disSty">
+一般保留7天,臨時網盤會自動失效的,失效一般不再補,有人留言 還是 會找時間補鏈 或 私信哦  >   <br>更多下載通道正在更新....<br>資源收集于網絡,僅供學習研究,製作不易,若是喜歡,請考慮補上正版,再體驗免客戶端離綫暢玩。<br>
+可到steam 等平臺 搜索購買</p>
+	</div>
+	</div>
+	<div class="vL">
+		<!-- <a href="javascript:;" referrerpolicy="no-referrer"><img src="../imgs/vl0.png"/><em>視頻演示</em></a> -->
+	</div>
+<!--content end--> 
+	</div>
+	<div class="ctrl">
+	<a class="btn_2" id="back" href="javascript:history.go(-1)"></a>
+	<a class="btn_2" id="prev" onclick="prevPage();"> </a>
+	<a class="btn_2" id="next" onclick="nextPage();"></a>
+		<div class="clear"></div>
+	</div> 
+
+	<div class="header_info" id="uTop" style="display:none">
+		<a href="#top0"><img src="../imgs/down2.png"></a>
+	</div>
+	<div class="header_info" id="dTop" style="display:block;">
+		<a href="#end0"><img src="../imgs/down.png"></a>
+	</div>
+	<div id="
+	"></div>
+	<a name="end0"></a>
+	<div class="isUnder">	  
+		 <div class="pageInfo">
+			<div id="setpage"></div> <!-- Page info -->
+			<div id="btnArea"></div>
+			
+			<div class="jumpArea">
+			<span id="pageMount0"></span>
+			<input id="jump" type="text" placeholder="" value="" style="min-height:30px; font-size:23px; width:100px; text-align:center;"/>
+			<span id="pageMount"></span>
+			<a href="javascript:;" onclick="jumpPage()">Go</a>
+			</div>
+		  </div>
+		<!-- <div class="isms">
+				 Line:      
+		  <br/>Facebook:  
+		  <br/>Mail:  
+		</div>	 -->
+	</div>
+<!-- -->
+<div id="container0"></div>
+</div>
+<div class="right0"></div>
+</div>
+<script src="../js/up.js"></script> 
+</body>
+</html>

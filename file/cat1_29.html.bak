@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta content="telephone=no" name="format-detection" /> 
+  <meta content="email=no" name="format-detection" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+  <meta name="apple-mobile-web-app-capable" content="yes" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes"/>
+<meta name="description" content="文明6_v1.0.9.9集成全DLC,純净綠色游戲分享下載@msncc美少女cc">
+<meta name="keywords" content="文明6_v1.0.9.9集成全DLC @msncc美少女cc">
+<meta property="og:description" content="文明6_v1.0.9.9集成全DLC,純净綠色游戲分享下載@msncc美少女cc">
+<meta property="og:title" content="文明6_v1.0.9.9集成全DLC @msncc美少女cc">
+<meta property="og:site_name" content="msncc美少女cc">
+<meta property="og:url" content="https://msncc.xyz/file/cat1_29.html">
+<title>文明6，Sid Meier's Civilization VI，文明VI - msncc美少女cc</title>
+<link rel="shortcut icon" href="#"/> 
+<link rel="stylesheet" href="../css/style.css" />
+<!-- <link rel="stylesheet" href="../css/m.css" /> -->
+<script src="../js/m0.js"></script> 
+<script src="../js/detTxt.js"></script> 
+<script src="../js/pic.js"></script>   
+</head> 
+<body>
+<div class="bg_pic">
+<div class="bg_filter"></div>
+</div> 
+<div id="cbtn0" class="cbtn" onclick="creatEle('cWin')"><a href="javascript:;" alt="close"></a></div>
+<div id="Cus0" class="showdt">
+</div>
+<div class="t-main">
+<div class="left0">
+	<div class="logo">
+		<a href="../index.html"><img src="../imgs/logo.png" alt="主頁"/></a>
+	</div> 
+	<div class="nav_footer"> 
+		<div class="follow">
+		<a href="#" onclick="window.open('https://twitter.com/home?status=' + encodeURIComponent(window.location),'_blank'); return false"><span class="m_tw" title="Twitter"></span></a>
+
+		<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location),'_blank'); return false"> <span class="m_fb" title="Fb"></span></a>
+		</div>
+
+		<div class="copy">
+      Copyright@msncc<br/>
+      pursue NewLife
+      </div>
+	</div>
+</div> 
+
+<div class="center0">
+	<div class="nav"> 
+		<div class="nav_icon">
+			<a href="../news_all.html"><img src="../imgs/all.png" alt="搜索頁" /></a>
+		</div> 
+		<div class="side_close"></div> 
+		<ul id="isMenu2" class="off">
+		<li>
+			<div class="title">
+			<a href="../index.html" target="_self">主頁<em>Home</em></a>
+			</div>
+		</li>
+		<li class="">
+			<div class="title">
+			<a href="../news_all.html" target="_self">搜索<em>Search</em></a>
+			</div>
+		</li> 
+		<li class="">
+			<div class="title">
+			<a href="../nav.html" target="_self">導航<em>Navigation</em></a>
+			</div>
+		</li>
+		<li class="">
+			<div class="title">
+			<a href="../index.html#end0" target="_self">關於<em>Message</em></a>
+			</div>
+		</li>     
+		</ul> 
+	</div> 
+	<a name="top0"></a>  
+	<div class="catg_name">				
+		<!-- <a href="javascript:;" id="area0" onclick="otherStyle('0')">show</a> -->
+		<a href="javascript:;" id="area0">show</a>
+	</div> 
+	<span id="tempT" style="top:0;"></span>
+	<div class="side_r news_detail">
+<!-- content -->
+	<div id="showArea0"></div>
+	<div id="showArea1">
+	<div class="pdetail">
+	<h1>文明6，Sid Meier's Civilization VI，文明VI</h1>
+<pre>
+<p class="dTitle"><span>介紹</span></p>
+
+<p>文明6 1.0.10.15<br></p>
+<p>文明6中文版是一款游戏画面十分精美的回合制策略游戏，文明6中文版游戏中玩家尝试建立起一个帝国，并接受时间的考验。玩家将创建及带领自己的文明从石器时代迈向信息时代，并成为世界的领导者。<br></p>
+<p> 在尝试建立起世界上赫赫有名的伟大文明的过程中，玩家将启动战争、实行外交、促进文化，同时正面对抗历史上的众多伟大领袖。</p>
+<p>      文明6中文版带给玩家与世界互动的新方式：城市现在可以在地图上实际地扩张，积极钻研科技和文化可以解锁新潜能，互相竞争的领袖会依据历史所记载的个人特征去追求自我宗旨，而且玩家可通过五种方式之一取得游戏胜利。</p>
+<p></p>
+<p>军力结合</p>
+<p>      以“每格一单位”的设计概念去做扩展，支援单位现在可以嵌入其他单位，例如反坦克单位支援步兵，战士支援拓荒者。类似的单位也可以结合在一起形成强大的“军团”单位。</p>
+<p>      更上层楼的多人游戏</p>
+<p>      除了传统的多人游戏模式外，还可以在众多各式各样的情境下(全都设计成可在一场游戏时间里轻松完成)与您的好友合作及对抗。</p>
+<p>      适合所有玩家的《文明》游戏</p>
+<p>      《文明6》提供了老玩家建立及调整文明的新方式，让他们有最大的机会取得成功。新的教学系统能让新玩家理解游戏的根本概念，帮助他们轻松上手。</p>
+<p>      豪华版说明：</p>
+<p>      1.数字豪华版包括完整的游戏本体，25周年数字音轨，以及游戏发售后四个DLC扩展包的内容。</p>
+<p>      2.将提前90天获得阿兹特克文明礼包抢先体验版</p>
+<p>      扩张帝国</p>
+<p>      让您以前所未有的方式看着帝国在地图上扩张壮大。每座城市都会占用多个格子，让您可以自行建设城市以充分运用当地的地形。</p>
+<p>      积极探索</p>
+<p>      解锁能加速文明历史进程的促进项目。若要进展地更快速，派您的单位积极探索、发展您的环境，以及发现新文化。</p>
+<p>      动态外交</p>
+<p>      与其他文明之间的互动会随着游戏的进行而改变。原始时代的初次互动可能是避免不了的战争冲突，但到游戏后期的互动将会转变成结盟与协商。</p>
+
+<p class="dTitle"><span>選普通下載</span></p>
+<!--<a href="javascript:;" referrerpolicy="no-referrer" target="_blank"><img src="../imgs/d.png" alt="下載"/><em>Google Drive Etc 資源正在趕來..</em></a> -->
+<a href="javascript:;" referrerpolicy="no-referrer" target="_blank"><img src="../imgs/d.png" alt="下載"/><em>Other 資源正在趕來..</em></a>
+解壓: msncc
+</pre>
+<p class="disSty"> 分享學習資訊 或 資源,如有失效的,請留言  >   <br>更多下載通道正在更新....<br>資源收集于網絡,僅供學習研究,製作不易,若是喜歡,請考慮補上正版,再體驗離綫暢玩。<br>
+可到官網或其他平臺 搜索購買</p>
+	</div>
+	</div>
+	<div class="vL">
+		<!-- <a href="视频链接"><img src="../imgs/yt.png"/><em>視頻演示</em></a> -->
+		<a href="https://pursuenewlife.blogspot.com/2021/02/10029.html"><img src="../imgs/gb.png" alt="詳情"><em>詳情 | 催促</em></a>
+	</div>
+<!--content end--> 
+	</div>
+	<div class="ctrl">
+	<a class="btn_2" id="back" href="javascript:history.go(-1)"></a>
+	<a class="btn_2" id="prev" onclick="prevPage();"> </a>
+	<a class="btn_2" id="next" onclick="nextPage();"></a>
+		<div class="clear"></div>
+	</div> 
+
+	<div class="header_info" id="uTop" style="display:none">
+		<a href="#top0"><img src="../imgs/down2.png"></a>
+	</div>
+	<div class="header_info" id="dTop" style="display:block;">
+		<a href="#end0"><img src="../imgs/down.png"></a>
+	</div>
+	<div id=""></div>
+	<a name="end0"></a>
+	<div class="isUnder">	  
+		 <div class="pageInfo">
+			<div id="setpage"></div> <!-- Page info -->
+			<div id="btnArea"></div>
+			
+			<div class="jumpArea">
+			<span id="pageMount0"></span>
+			<input id="jump" type="text" placeholder="" value="" style="min-height:30px; font-size:23px; width:100px; text-align:center;"/>
+			<span id="pageMount"></span>
+			<a href="javascript:;" onclick="jumpPage()">Go</a>
+			</div>
+		  </div>
+		<!-- 	 -->
+	</div>
+<!-- -->
+<div id="container0"></div>
+</div>
+<div class="right0"></div>
+</div>
+<script src="../js/up.js"></script> 
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta content="telephone=no" name="format-detection" /> 
+  <meta content="email=no" name="format-detection" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+  <meta name="apple-mobile-web-app-capable" content="yes" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes"/>
+  <meta name="description" content="圣女战旗，Banner of the Maid學習版,破解學習版">
+<meta name="keywords" content="圣女战旗，Banner of the Maid學習版,破解學習版">
+<meta property="og:description" content="圣女战旗，Banner of the Maid最新版,學習版,破解學習版純净綠色游戲,軟件,學習等資源分享下載@msncc美少女cc">
+<meta property="og:title" content="圣女战旗，Banner of the Maid最新版,學習版,破解學習版@msncc美少女cc">
+<meta property="og:site_name" content="msncc美少女cc">
+<title>圣女战旗，Banner of the Maid - 美少女cc | msncc</title>
+<link rel="shortcut icon" href="#"/> 
+<link rel="stylesheet" href="../css/style.css" />
+<!-- <link rel="stylesheet" href="../css/m.css" /> -->
+<script src="../js/m0.js"></script> 
+<script src="../js/detTxt.js"></script> 
+<script src="../js/pic.js"></script>   
+</head> 
+<body>
+<div class="bg_pic">
+<div class="bg_filter"></div>
+</div> 
+<div id="cbtn0" class="cbtn" onclick="creatEle('cWin')"><a href="javascript:;" alt="close"></a></div>
+<div id="Cus0" class="showdt">
+</div>
+<div class="t-main">
+<div class="left0">
+	<div class="logo">
+		<a href="../index.html"><img src="../imgs/logo.png" alt="主頁"/></a>
+	</div> 
+	<div class="nav_footer"> 
+		<div class="follow">
+		<a href="#" onclick="window.open('https://twitter.com/home?status=' + encodeURIComponent(window.location),'_blank'); return false"><span class="m_tw" title="Twitter"></span></a>
+
+		<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location),'_blank'); return false"> <span class="m_fb" title="Fb"></span></a>
+		</div>
+
+		<div class="copy">
+      Copyright@msncc<br/>
+      pursue NewLife
+      </div>
+	</div>
+</div> 
+
+<div class="center0">
+	<div class="nav"> 
+		<div class="nav_icon">
+			<a href="../news_all.html"><img src="../imgs/all.png" alt="搜索頁" /></a>
+		</div> 
+		<div class="side_close"></div> 
+		<ul id="isMenu2" class="off">
+		<li>
+			<div class="title">
+			<a href="../index.html" target="_self">主頁<em>Home</em></a>
+			</div>
+		</li>
+		<li class="">
+			<div class="title">
+			<a href="../news_all.html" target="_self">搜索<em>Search</em></a>
+			</div>
+		</li> 
+		<li class="">
+			<div class="title">
+			<a href="../nav.html" target="_self">導航<em>Navigation</em></a>
+			</div>
+		</li>
+		<li class="">
+			<div class="title">
+			<a href="../index.html#end0" target="_self">關於<em>Message</em></a>
+			</div>
+		</li>     
+		</ul> 
+	</div> 
+	<a name="top0"></a>  
+	<div class="catg_name">				
+		<!-- <a href="javascript:;" id="area0" onclick="otherStyle('0')">show</a> -->
+		<a href="javascript:;" id="area0">show</a>
+	</div> 
+	<span id="tempT" style="top:0;"></span>
+	<div class="side_r news_detail">
+	<div id="showArea0"></div>
+	<div id="showArea1">
+	<div class="pdetail">
+	<h1>圣女战旗，Banner of the Maid - 美少女cc | msncc</h1>
+<pre>
+<p class="dTitle"><span>介紹</span></p>
+
+<p>推荐一部最新发布的国产战棋SLG+RPG的画风精美而社保的大作游戏：</p>
+<p>圣女战棋</p>
+<p>这是发售当天就直接冲上热销榜第2名的超多特别好评大作！</p>
+<p>作品概述：</p>
+<p>这是由Azure Flame Studio开发并由CE-Asia发行的大型新游戏。</p>
+<p>无比精美社保的人物画风，加上动态场景的SLG+RPG战棋大型游戏。</p>
+<p>游戏可玩性极高，并且是官方中文版+汉语普通话配音！</p>
+<p>本次带来的是最新的Ver1.1.9修正版，修复了之前的一些BUG等问题。</p>
+<p>凭这精美画面，社保人物画风，极高的可玩性，绝对让你玩得停不下来。</p>
+<p>游戏介绍：</p>
+<p>圣女战旗是以18世纪末、19世纪初，法国大革.命时代为背景改编的战棋游戏。</p>
+<p>18世纪末，国王路易十六密谋逃亡国外，波旁王朝岌岌可危，混乱与变革的浪潮因法国大革.命而席卷欧洲。</p>
+<p>玩家将扮演少女军官波利娜·波拿巴，从一名普通的军官开始，展开一段属于自己的征程，</p>
+<p>在暗流涌动的巴黎与众多势力周旋，于战火与硝烟中书写自己的英雄故事。</p>
+<p>时代背景：</p>
+<p>在风云变幻的法国大革.命时期：王室派、斐扬派、雅各宾派、马尔梅松派等势力在巴黎轮番登场展开博弈。</p>
+<p>以“马尔梅松沙龙”为据点，身处革.命漩涡的波利娜·波拿巴将周旋于巴黎的各方势力之间，</p>
+<p>完成他们委托的任务和挑战，打通皇室与政要的关系，赢得他们的支持，筹集经费改善武器装备、军粮补给，</p>
+<p>同时探索隐藏在城市深处的关于圣女的秘密。</p>
+<p>席卷法国的大革.命，以及神秘的圣女，改变了整个欧洲的命运。</p>
+<p>变革的时代英雄辈出：有才华出众、值得信赖的将领，也有为皇室服务的机密组织成员，</p>
+<p>更有音乐天赋异于常人的乐手……30多位出身各异的角色登场，招募他们成为你麾下的指挥官，</p>
+<p>了解他们背后的故事，培养他们成为足以左右战局的名将。</p>
+<p>游戏特色：</p>
+<p>以具有独特魅力的策略战棋的形式，指挥在18、19世纪活跃于欧洲战场上的线列步兵、骑兵、炮兵等多种部队，</p>
+<p>体验具有时代感的战争场面。</p>
+<p>培养麾下的指挥官学习及搭配各种战术技能，以战胜强大的敌军精锐。</p>
+<p>超过30个关卡地图，包括城市、平原、雪地等场地，利用诸多战场元素赢得优势：</p>
+<p>-给作战带来各种利弊的地形要素</p>
+<p>-为不同兵种提供独特支援的阵地</p>
+<p>-随剧情出现在战场上的特殊事件</p>
+<p>-暴雨、大雪、浓雾、黑夜等影响全军的环境变化</p>
+<p class="dTitle"><span>選普通下載</span></p>
+<a href="https://cloud.189.cn/t/7zmQFz3QjU3e" referrerpolicy="no-referrer" target="_blank"><img src="../imgs/d.png" alt="下載"/><em>Other ..</em></a>
+提取 sqw8
+解壓: msncc
+</pre>
+<p class="disSty">分享學習資訊 或 資源,如有失效的,請留言 <br>更多下載通道正在更新....<br>資源收集于網絡,僅供學習研究,製作不易,若是喜歡,請考慮補上正版,再體驗離綫暢玩。<br>
+可到官網或其他平臺 搜索購買</p>
+	</div>
+	</div>
+	<div class="vL">
+		<!-- <a href="javascript:;" referrerpolicy="no-referrer" target="_blank"><img src="../imgs/vl0.png"/><em>視頻演示</em></a> -->
+		<!-- <a href="javascript:;" referrerpolicy="no-referrer" target="_blank"><img src="../imgs/gb.png" alt="詳情"><em>詳情 | 催促</em></a> -->
+	</div>
+<!--content end--> 
+	</div>
+	<div class="ctrl">
+	<a class="btn_2" id="back" href="javascript:history.go(-1)"></a>
+	<a class="btn_2" id="prev" onclick="prevPage();"> </a>
+	<a class="btn_2" id="next" onclick="nextPage();"></a>
+		<div class="clear"></div>
+	</div> 
+
+	<div class="header_info" id="uTop" style="display:none">
+		<a href="#top0"><img src="../imgs/down2.png"></a>
+	</div>
+	<div class="header_info" id="dTop" style="display:block;">
+		<a href="#end0"><img src="../imgs/down.png"></a>
+	</div>
+	<div id="
+	"></div>
+	<a name="end0"></a>
+	<div class="isUnder">	  
+		 <div class="pageInfo">
+			<div id="setpage"></div> <!-- Page info -->
+			<div id="btnArea"></div>
+			
+			<div class="jumpArea">
+			<span id="pageMount0"></span>
+			<input id="jump" type="text" placeholder="" value="" style="min-height:30px; font-size:23px; width:100px; text-align:center;"/>
+			<span id="pageMount"></span>
+			<a href="javascript:;" onclick="jumpPage()">Go</a>
+			</div>
+		  </div>
+		<!-- <div class="isms">
+				 Line:      
+		  <br/>Facebook:  
+		  <br/>Mail:  
+		</div>	 -->
+	</div>
+<!-- -->
+<div id="container0"></div>
+</div>
+<div class="right0"></div>
+</div>
+<script src="../js/up.js"></script> 
+</body>
+</html>

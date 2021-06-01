@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta content="telephone=no" name="format-detection" /> 
+  <meta content="email=no" name="format-detection" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+  <meta name="apple-mobile-web-app-capable" content="yes" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes"/>
+  <meta name="description" content="航海日记 Uncharted Ocean：Set Sail學習版,破解學習版">
+<meta name="keywords" content="航海日记 Uncharted Ocean：Set Sail學習版,破解學習版">
+<meta property="og:description" content="航海日记 Uncharted Ocean：Set Sail最新版,學習版,破解學習版純净綠色游戲,軟件,學習等資源分享下載@msncc美少女cc">
+<meta property="og:title" content="航海日记 Uncharted Ocean：Set Sail最新版,學習版,破解學習版@msncc美少女cc">
+<meta property="og:site_name" content="msncc美少女cc">
+<title>航海日记 Uncharted Ocean：Set Sail - 美少女cc | msncc</title>
+<link rel="shortcut icon" href="#"/> 
+<link rel="stylesheet" href="../css/style.css" />
+<!-- <link rel="stylesheet" href="../css/m.css" /> -->
+<script src="../js/m0.js"></script> 
+<script src="../js/detTxt.js"></script> 
+<script src="../js/pic.js"></script>   
+</head> 
+<body>
+<div class="bg_pic">
+<div class="bg_filter"></div>
+</div> 
+<div id="cbtn0" class="cbtn" onclick="creatEle('cWin')"><a href="javascript:;" alt="close"></a></div>
+<div id="Cus0" class="showdt">
+</div>
+<div class="t-main">
+<div class="left0">
+	<div class="logo">
+		<a href="../index.html"><img src="../imgs/logo.png" alt="主頁"/></a>
+	</div> 
+	<div class="nav_footer"> 
+		<div class="follow">
+		<a href="#" onclick="window.open('https://twitter.com/home?status=' + encodeURIComponent(window.location),'_blank'); return false"><span class="m_tw" title="Twitter"></span></a>
+
+		<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location),'_blank'); return false"> <span class="m_fb" title="Fb"></span></a>
+		</div>
+
+		<div class="copy">
+      Copyright@msncc<br/>
+      pursue NewLife
+      </div>
+	</div>
+</div> 
+
+<div class="center0">
+	<div class="nav"> 
+		<div class="nav_icon">
+			<a href="../news_all.html"><img src="../imgs/all.png" alt="搜索頁" /></a>
+		</div> 
+		<div class="side_close"></div> 
+		<ul id="isMenu2" class="off">
+		<li>
+			<div class="title">
+			<a href="../index.html" target="_self">主頁<em>Home</em></a>
+			</div>
+		</li>
+		<li class="">
+			<div class="title">
+			<a href="../news_all.html" target="_self">搜索<em>Search</em></a>
+			</div>
+		</li> 
+		<li class="">
+			<div class="title">
+			<a href="../nav.html" target="_self">導航<em>Navigation</em></a>
+			</div>
+		</li>
+		<li class="">
+			<div class="title">
+			<a href="../index.html#end0" target="_self">關於<em>Message</em></a>
+			</div>
+		</li>     
+		</ul> 
+	</div> 
+	<a name="top0"></a>  
+	<div class="catg_name">				
+		<!-- <a href="javascript:;" id="area0" onclick="otherStyle('0')">show</a> -->
+		<a href="javascript:;" id="area0">show</a>
+	</div> 
+	<span id="tempT" style="top:0;"></span>
+	<div class="side_r news_detail">
+	<div id="showArea0"></div>
+	<div id="showArea1">
+	<div class="pdetail">
+	<h1>航海日记 Uncharted Ocean：Set Sail - 美少女cc | msncc</h1>
+	<div id="sVideo" class="video0"></div>
+<pre>
+<p class="dTitle"><span>介紹</span></p>
+<p></p><p></p><p>《航海日记：起航（Uncharted Ocean：Set Sail）》是一款开放世界航海类型的卡通策略游戏。在游戏中玩家可以可以招募船员，并培养他们，让他们成为自己的战力，还可以不断的去征服，收集资源，更好的发展自己的船队，才能向梦想更进一步。</p><p><br></p><p>游戏以冒险的玩的为主，养成的玩法为主，广袤的大海浩瀚无垠，冒险不断，梦想，就不会丢失。</p><p>开发商说明</p><p>曾经我们痴迷于航海游戏，不是因为推图式一关又一关的战斗，而是因为乘风破浪后发现新大陆的感动。不是因为挂机和枯燥的跑环任务，而是因为辛苦探索搜集资源，最后造出新船的成就感。</p><p>游戏中，我们将扮演麦哲伦的船员，与他一起环游世界。探索、航行、战斗、占领、贸易，多种核心玩法等你尝试。除此以外，还有各式隐藏任务、黑市商人，以及等待被挖掘的数百种珍藏品，众多彩蛋都会让你的航海旅程惊喜不断。</p><p>游戏背景</p><p>这是一个由海洋、岛屿和船只组成的世界。玩家将从法鲁开始自己的征程，面对无常的海洋与诡谲的对手，凭 借智慧与运气，逐渐建立起一个强大的舰队。混乱的海域、诱人的宝藏，在旗帜的指引下，为了生存而辛劳。游戏中玩家将扮演麦哲伦的船员陪他探索未知世界，体验大航海时代的历史风貌，自由地探索大陆。</p><p>游戏分为8个国家，玩家第一次进入游戏的时候，要选择其中一个国家加入，大家齐心协力，以歼灭敌国舰队、掠夺敌国港口为己任，之后获得荣誉，加官进爵。占领港口的玩家在港口界面有明显的标志，当其他玩家看到此标志的时候，定会肃然起敬。在这里您可以成就您的英雄梦想，宏图霸业！您还可以苦心经营，富甲天下！</p><p><br></p><p>游戏特色</p><p>开放自由的世界，崭新的航海旅程</p><p>从一开始的迷雾缭绕，不断开辟新航路，直到点亮整片大陆。百余个港口等你来插旗，拔锚起航，即刻重回大航海时代，随心所欲自由探索辽阔海洋！</p><p>精美复古画面，还原中世纪风格</p><p>游戏画面充满了地理大发现时代的独有风格，每一个细节的取舍都经过精心打磨，不同风格的港口风貌美轮美奂，航海之时风云雷雨的天气变幻也使人沉醉其中。</p><p>多样贸易玩法，港口任你经营</p><p>无论你是穿梭各大港口倒买倒卖，还是投资港口赢得友好与长期回报，都可以为你积累财富。</p><p>这笔财富可以让你购买珍稀图纸、打造更强的船只、招募非凡的船员……有钱就是可以为所欲为！</p><p>幽默不失热血，跌宕起伏的故事</p><p>游戏画面很简洁，但非常有美感，每一个细节的取舍都是经过精心编排的。整个剧情线诙谐幽默，让人忍俊不禁的同时也引我们脑洞大开。</p><p>最为难得的是，在庞大剧情线的基础上，《航海日记》充分给予了玩家完全的自由。成为富甲一方的商人？当一个万人敬仰的市长？做一个横行四方的海贼王？全部取决于你的选择！</p><p><br></p><p>玩法内容</p><p>天气系统：航行速度会受到风速和风力的影响，雾天会影响你的视野，而暴风雨会不断摧残着你的船只。而想越过传说中的风暴角，没有更强大的船必然会被大海吞没。</p><p>航行状态：如果你吃的不够你可能会营养不良，不及时补充还会得坏血病。如果赶上暴雨可能会造成帆破损和货物倒塌。如果你的航行时间过长可能会有船员抑郁自杀，如果你随便解雇水手，他们还会叛乱，而镇压的唯一方式只有跟他单挑。</p><p><br></p><p>海上道具：在海上你可以用鱼竿钓鱼补充食物，下雨时你可以用木桶收集淡水。通过寻找到的藏宝图，你还可以在海中打捞宝藏。</p><p>导航：觉得自己开太累？只要点击地图任意点，就可以自动导航到目的地，省时省力，但是你只能导航到可以活着开到的地方，啊，任务除外。</p><p>NPC：你在海上看到的船你都可以进行聊天和掠夺，嗯。。首先你得打的过。。其次，如果坏事干的太多，海军会追杀你。。。</p><p><br></p><p>攻打港口：只要你够强，你可以去攻打任意的港口，这样港口的收入就会有你的一份了。</p><p>贸易：目前已开放地中海及北非70多个港口，每个港口都有自己独特的货物可供贸易，而且拥有库存和价格浮动，只有多去不同的港口航行，才能获得最大的收益。</p><p>造船、改造、火炮、船首像：尽可能将历史和经典做的原汁原味。</p><p>投资港口、工会、教会：投钱发展港口当市长，研发科技，晋升转职，这些又怎么能少呢。</p><p>海战：休闲式的战斗方式，根据船和阵型设计的多种ai，配合手动技能，简单中又能有些策略乐趣。</p><p>决斗：其实就是想做个fc的功夫，设计者的一点小执念，希望大家能喜欢。</p><p>探索：不想简单的就是搜索，搜索， 挖宝嘛，当然得有点挖宝的感觉了，所以做成了砸砖块的玩法，还要配合上你的副官能力，也是刷材料的好地方。</p><p></p><p></p>
+
+链接: https://pan.baidu.com/s/1cQXTIpeIU2oBR1TPBH9kxw 提取码: qpmu
+https://cloud.189.cn/t/UjYRruFzqQBv
+
+<p class="dTitle"><span>選普通下載</span></p>
+<!--<a href="javascript:;" referrerpolicy="no-referrer" target="_blank"><img src="../imgs/d.png" alt="下載"/><em>Other 資源正趕來..</em></a> -->
+解壓: 
+msncc
+美少女cc
+</pre>
+<p class="disSty">
+一般保留7天,臨時網盤會自動失效的,失效一般不再補,有人留言 還是 會找時間補鏈 或 私信哦  >   <br>更多下載通道正在更新....<br>資源收集于網絡,僅供學習研究,製作不易,若是喜歡,請考慮補上正版,再體驗免客戶端離綫暢玩。<br>
+可到steam 等平臺 搜索購買</p>
+	</div>
+	</div>
+	<div class="vL">
+		<!-- <a href="javascript:;" referrerpolicy="no-referrer" target="_blank"><img src="../imgs/vl0.png"/><em>視頻演示</em></a> -->
+	</div>
+<!--content end--> 
+	</div>
+	<div class="ctrl">
+	<a class="btn_2" id="back" href="javascript:history.go(-1)"></a>
+	<a class="btn_2" id="prev" onclick="prevPage();"> </a>
+	<a class="btn_2" id="next" onclick="nextPage();"></a>
+		<div class="clear"></div>
+	</div> 
+
+	<div class="header_info" id="uTop" style="display:none">
+		<a href="#top0"><img src="../imgs/down2.png"></a>
+	</div>
+	<div class="header_info" id="dTop" style="display:block;">
+		<a href="#end0"><img src="../imgs/down.png"></a>
+	</div>
+	<div id="
+	"></div>
+	<a name="end0"></a>
+	<div class="isUnder">	  
+		 <div class="pageInfo">
+			<div id="setpage"></div> <!-- Page info -->
+			<div id="btnArea"></div>
+			
+			<div class="jumpArea">
+			<span id="pageMount0"></span>
+			<input id="jump" type="text" placeholder="" value="" style="min-height:30px; font-size:23px; width:100px; text-align:center;"/>
+			<span id="pageMount"></span>
+			<a href="javascript:;" onclick="jumpPage()">Go</a>
+			</div>
+		  </div>
+		<!-- <div class="isms">
+				 Line:      
+		  <br/>Facebook:  
+		  <br/>Mail:  
+		</div>	 -->
+	</div>
+<!-- -->
+<div id="container0"></div>
+</div>
+<div class="right0"></div>
+</div>
+<script src="../js/up.js"></script> 
+</body>
+</html>

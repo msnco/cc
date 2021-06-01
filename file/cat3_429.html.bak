@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta content="telephone=no" name="format-detection" /> 
+  <meta content="email=no" name="format-detection" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+  <meta name="apple-mobile-web-app-capable" content="yes" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes"/>
+  <meta name="description" content="retas studio是一款专业且功能强大的二维动画制作软件，适用于影视行业,游戏娱乐业,光盘制作等行业。學習版,破解學習版">
+<meta name="keywords" content="动画制作，retas studio學習版,破解學習版">
+<meta property="og:description" content="retas studio是一款专业且功能强大的二维动画制作软件，适用于影视行业,游戏娱乐业,光盘制作等行业。最新版,學習版,破解學習版純净綠色游戲,軟件,學習等資源分享下載@msncc美少女cc">
+<meta property="og:title" content="动画制作，retas studio最新版,學習版,破解學習版@msncc美少女cc">
+<meta property="og:site_name" content="msncc美少女cc">
+<title>动画制作，retas studio - 美少女cc | msncc</title>
+<link rel="shortcut icon" href="#"/> 
+<link rel="stylesheet" href="../css/style.css" />
+<!-- <link rel="stylesheet" href="../css/m.css" /> -->
+<script src="../js/m0.js"></script> 
+<script src="../js/detTxt.js"></script> 
+<script src="../js/pic.js"></script>   
+</head> 
+<body>
+<div class="bg_pic">
+<div class="bg_filter"></div>
+</div> 
+<div id="cbtn0" class="cbtn" onclick="creatEle('cWin')"><a href="javascript:;" alt="close"></a></div>
+<div id="Cus0" class="showdt">
+</div>
+<div class="t-main">
+<div class="left0">
+	<div class="logo">
+		<a href="../index.html"><img src="../imgs/logo.png" alt="主頁"/></a>
+	</div> 
+	<div class="nav_footer"> 
+		<div class="follow">
+		<a href="#" onclick="window.open('https://twitter.com/home?status=' + encodeURIComponent(window.location),'_blank'); return false"><span class="m_tw" title="Twitter"></span></a>
+
+		<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location),'_blank'); return false"> <span class="m_fb" title="Fb"></span></a>
+		</div>
+
+		<div class="copy">
+      Copyright@msncc<br/>
+      pursue NewLife
+      </div>
+	</div>
+</div> 
+
+<div class="center0">
+	<div class="nav"> 
+		<div class="nav_icon">
+			<a href="../news_all.html"><img src="../imgs/all.png" alt="搜索頁" /></a>
+		</div> 
+		<div class="side_close"></div> 
+		<ul id="isMenu2" class="off">
+		<li>
+			<div class="title">
+			<a href="../index.html" target="_self">主頁<em>Home</em></a>
+			</div>
+		</li>
+		<li class="">
+			<div class="title">
+			<a href="../news_all.html" target="_self">搜索<em>Search</em></a>
+			</div>
+		</li> 
+		<li class="">
+			<div class="title">
+			<a href="../nav.html" target="_self">導航<em>Navigation</em></a>
+			</div>
+		</li>
+		<li class="">
+			<div class="title">
+			<a href="../index.html#end0" target="_self">關於<em>Message</em></a>
+			</div>
+		</li>     
+		</ul> 
+	</div> 
+	<a name="top0"></a>  
+	<div class="catg_name">				
+		<!-- <a href="javascript:;" id="area0" onclick="otherStyle('0')">show</a> -->
+		<a href="javascript:;" id="area0">show</a>
+	</div> 
+	<span id="tempT" style="top:0;"></span>
+	<div class="side_r news_detail">
+	<div id="showArea0"></div>
+	<div id="showArea1">
+	<div class="pdetail">
+	<h1>动画制作，retas studio - 美少女cc | msncc</h1>
+	<div id="sVideo" class="video0"></div>
+<pre>
+<p class="dTitle"><span>介紹</span></p>
+<p></p><p>Retas Studio是一套完整的数码动画制作工具，它取代了原先手工制作的赛璐璐与胶片，仅在一台个人电脑上就实现了动画制作。制作流程被分为多个环节，包括“作画”、“上色”以及“合成”，而且这些环节一般是分别实施的，为了迎合“分开的”动画制作流程，RETAS针对每个环节的特征设计了不同的工具</p><p>Retas Studio 6.6 包含四大模块：</p><p>TraceMan 6.6 扫描模块</p><p>PaintMan 6.6上色模块</p><p>CoreRETAS 6.6 合成模块</p><p>Stylos 2.6 矢量无纸作画、描线模块</p><div><p><br></p><p><br></p><p>为专业动画师打造的无纸作画工具，带来作画的超级感受。</p><p>    STYLOS HD几乎含概了制作流程中与作画有关的所有环节，包括从前期的设计稿、到原画与动画的创建、再到阴影指示等。</p><p>同时支持能再现自然笔触的矢量图像以及体现细微表现的位图图像。用户可以根据自己的喜好以及需求，选择使用矢量或者位图作画。而且，</p><p>STYLOS可以处理多层结构，帮助用户按工作需要在各个不同形式的层之间来回切换（包括草稿层、清稿层、阴影指示层等）。</p><p>    对于动画中割非常重要的透光桌功能在本次版本中不仅有所改进，而且还增加了许多新功能，比如“Quick Motion（快速动检）”命令帮</p><p>助用户工作时实时检查中割动作，“Vanishing Point layer（消失点层）”方便用户进行透视作画。</p><p>STYLOS HD的主要功能</p><p>作画功能</p><p>    * 自动修补线条</p><p>    * 线条的渐入、渐出</p><p>    * 线条的尖锐化</p><p>    * 自动连线</p><p>    * 连接断线</p><p>    * 修复抖动的线条</p><p>    * 更改线条形状</p><p>    * 更改线宽</p><p>多层功能</p><p>    * 草稿层（Raster Sketch Layer）</p><p>    * 清稿/色线层（Vector Drawing Layer / Raster Drawing Layer）</p><p>    * 作画修型层（Vector Correction Layer / Raster Correction Layer）</p><p>    * 阴影指示层（Shadow Markup Layer）</p><p>辅助作画功能</p><p>    * 橡皮：可以只擦除一部分线条，也可以擦除整条线段</p><p>    * 消失点</p><p>    * 灰尘过滤器</p><p>    * 透光桌：新增多种透光桌功能（Set）</p><p>    * 定位尺</p><p>动作检查功能</p><p>    * 翻页：Quick Motion命令可以实现传统的翻页操作，使作画进度更有效.率；</p><p>    * 动作检查功能</p><p>指示功能</p><p>    * 阴影指示</p><p>    * 镜头运动指示</p><p>    * 作画修型</p><p>    * 文本功能</p><p>批处理功能</p><p>    * 默认状态下，批处理只包含Change Width（更改线宽）等项目，但是用户可以根据自身需求创建其他项目。</p><p>输出功能</p><p>    * 镜头文件夹的格式转换</p><p>    * 输出成一般位图格式：BMP、PICT、PNG、RAW、SGI、SOFTIMAGE、TARGA、TIFF；</p><p>    * 输出成EPS、SWF</p><p>管理功能</p><p>    * 图像浏览</p><p>    * 进度管理功能</p><p>    * Message Board（留言板）</p><p>    * Handwriting Memo（手写信息）</p><p>操作环境的改善</p><p>    * 作画窗口工具栏的简化</p><p>    * 全屏模式显示作画窗口</p><p>    * 多视窗功能：可打开多个视窗以不同比例观察一张图像；</p><p>    * 多次执行Undo-Redo（撤消-重做）：最高可达20次；</p><p>    * 自定义快捷键功能</p><p>STYLOS HD的特色</p><p>基本视窗和功能</p><p>（1）工具</p><p>用于给画作调色</p><p>（2）透光桌</p><p>该调色板用于操作透光桌，它用于在当前的图像后显示其他图像，半透明。</p><p>（3）工具选择</p><p>用于设定每个调色板工具的选择。</p><p>（4）文件浏览器窗口</p><p>该窗口用于浏览图像文件和管理场景文件夹。</p><p>（5）单元格窗口</p><p>该窗口用于编辑（图画）图像，它就相当于用纸来作画的纸版面或者画稿之间的连接。</p><p>（6）律表窗口</p><p>该窗口用来管理单元格窗口时序以及哪个单元格窗口的顺序是要交迭的。</p><p>（7）文件预览</p><p>该调色板式用来对按顺序排号的文件进行切换操作。</p><p>（8）批量处理</p><p>用来执行涉及大量数据、并且相同进程需要重复的批量进程。</p><p>（9）批量处理</p><p>用来设定调色板的层。</p></div>
+<p class="dTitle"><span>選普通下載</span></p>
+<a href="https://wusuoweile.lanzoui.com/icxbGp0pw6d" referrerpolicy="no-referrer" target="_blank"><img src="../imgs/d.png" alt="下載"/><em>Other ..</em></a>
+解壓: 
+msncc
+美少女cc
+</pre>
+<p class="disSty">
+分享學習資訊 或 資源,如有失效的,請留言  >   <br>更多下載通道正在更新....<br>資源收集于網絡,僅供學習研究,製作不易,若是喜歡,請考慮補上正版,再體驗免客戶端離綫暢玩。<br>
+可到steam 等平臺 搜索購買</p>
+	</div>
+	</div>
+	<div class="vL">
+		<!-- <a href="javascript:;" referrerpolicy="no-referrer" target="_blank"><img src="../imgs/vl0.png"/><em>視頻演示</em></a> -->
+	</div>
+<!--content end--> 
+	</div>
+	<div class="ctrl">
+	<a class="btn_2" id="back" href="javascript:history.go(-1)"></a>
+	<a class="btn_2" id="prev" onclick="prevPage();"> </a>
+	<a class="btn_2" id="next" onclick="nextPage();"></a>
+		<div class="clear"></div>
+	</div> 
+
+	<div class="header_info" id="uTop" style="display:none">
+		<a href="#top0"><img src="../imgs/down2.png"></a>
+	</div>
+	<div class="header_info" id="dTop" style="display:block;">
+		<a href="#end0"><img src="../imgs/down.png"></a>
+	</div>
+	<div id="
+	"></div>
+	<a name="end0"></a>
+	<div class="isUnder">	  
+		 <div class="pageInfo">
+			<div id="setpage"></div> <!-- Page info -->
+			<div id="btnArea"></div>
+			
+			<div class="jumpArea">
+			<span id="pageMount0"></span>
+			<input id="jump" type="text" placeholder="" value="" style="min-height:30px; font-size:23px; width:100px; text-align:center;"/>
+			<span id="pageMount"></span>
+			<a href="javascript:;" onclick="jumpPage()">Go</a>
+			</div>
+		  </div>
+		<!-- <div class="isms">
+				 Line:      
+		  <br/>Facebook:  
+		  <br/>Mail:  
+		</div>	 -->
+	</div>
+<!-- -->
+<div id="container0"></div>
+</div>
+<div class="right0"></div>
+</div>
+<script src="../js/up.js"></script> 
+</body>
+</html>

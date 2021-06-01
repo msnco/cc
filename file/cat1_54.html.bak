@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta content="telephone=no" name="format-detection" /> 
+  <meta content="email=no" name="format-detection" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+  <meta name="apple-mobile-web-app-capable" content="yes" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes"/>
+  <meta name="description" content="创世理想乡，Craftopia，农场、宠物、迷宫、建造沙盒休闲动作冒险學習版,破解學習版">
+<meta name="keywords" content="创世理想乡，Craftopia學習版,破解學習版">
+<meta property="og:description" content="创世理想乡，Craftopia，农场、宠物、迷宫、建造沙盒休闲动作冒险最新版,學習版,破解學習版純净綠色游戲,軟件,學習等資源分享下載@msncc美少女cc">
+<meta property="og:title" content="创世理想乡，Craftopia最新版,學習版,破解學習版@msncc美少女cc">
+<meta property="og:site_name" content="msncc美少女cc">
+<title>创世理想乡，Craftopia</title>
+<link rel="shortcut icon" href="#"/> 
+<link rel="stylesheet" href="../css/style.css" />
+<!-- <link rel="stylesheet" href="../css/m.css" /> -->
+<script src="../js/m0.js"></script> 
+<script src="../js/detTxt.js"></script> 
+<script src="../js/pic.js"></script>   
+</head> 
+<body>
+<div class="bg_pic">
+<div class="bg_filter"></div>
+</div> 
+<div id="cbtn0" class="cbtn" onclick="creatEle('cWin')"><a href="javascript:;" alt="close"></a></div>
+<div id="Cus0" class="showdt">
+</div>
+<div class="t-main">
+<div class="left0">
+	<div class="logo">
+		<a href="../index.html"><img src="../imgs/logo.png" alt="主頁"/></a>
+	</div> 
+	<div class="nav_footer"> 
+		<div class="follow">
+		<a href="#" onclick="window.open('https://twitter.com/home?status=' + encodeURIComponent(window.location),'_blank'); return false"><span class="m_tw" title="Twitter"></span></a>
+
+		<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location),'_blank'); return false"> <span class="m_fb" title="Fb"></span></a>
+		</div>
+
+		<div class="copy">
+      Copyright@msncc<br/>
+      pursue NewLife
+      </div>
+	</div>
+</div> 
+
+<div class="center0">
+	<div class="nav"> 
+		<div class="nav_icon">
+			<a href="../news_all.html"><img src="../imgs/all.png" alt="搜索頁" /></a>
+		</div> 
+		<div class="side_close"></div> 
+		<ul id="isMenu2" class="off">
+		<li>
+			<div class="title">
+			<a href="../index.html" target="_self">主頁<em>Home</em></a>
+			</div>
+		</li>
+		<li class="">
+			<div class="title">
+			<a href="../news_all.html" target="_self">搜索<em>Search</em></a>
+			</div>
+		</li> 
+		<li class="">
+			<div class="title">
+			<a href="../nav.html" target="_self">導航<em>Navigation</em></a>
+			</div>
+		</li>
+		<li class="">
+			<div class="title">
+			<a href="../index.html#end0" target="_self">關於<em>Message</em></a>
+			</div>
+		</li>     
+		</ul> 
+	</div> 
+	<a name="top0"></a>  
+	<div class="catg_name">				
+		<!-- <a href="javascript:;" id="area0" onclick="otherStyle('0')">show</a> -->
+		<a href="javascript:;" id="area0">show</a>
+	</div> 
+	<span id="tempT" style="top:0;"></span>
+	<div class="side_r news_detail">
+	<div id="showArea0"></div>
+	<div id="showArea1">
+	<div class="pdetail">
+	<h1>创世理想乡v2021 Craftopia</h1>
+<pre>
+<p class="dTitle"><span>介紹</span></p>
+
+<p>游戏特色：</p>
+<p>创世理想乡是一款将农场、宠物、迷宫、建造等等创造性元素缝合在一起的开放世界动作冒险游戏，玩家可以体验非常丰富的游戏内容。游侠网分享创世理想乡下载，本想斥责它是缝合怪，但幻想乡能玩的东西实在太多了。<br></p>
+<p>农业</p>
+<p>在这里你可以亲手种植20种以上的农作物，也可以用农业机器进行现代化农业生产。一边享受着温馨闲适的田园生活，一边大量生产高价作物一夜暴富吧！</p>
+<p>工业·自动化</p>
+<p>所有的资源收集都能将起自动化。如果你已经受够了亲自采集木材与石材的话，就将他们自动化吧！这里不仅仅可以将单调的采集行为自动化，也可以利用传送带等机械创作出一个全新的大规模农场。</p>
+<p>养育宠物</p>
+<p>你可以通过向怪物扔怪物棱镜来抓捕怪物，驯化为宠物。不仅仅是牛鹿之类的怪物，其余的几乎所有怪物都能驯化为宠物。超多的怪物，GET DAZE！</p>
+<p>迷宫探索</p>
+<p>当探索机器开始发出“噼噼……噼噼”的声音时说明你已经接近了一个危险的迷宫。回到街道整备装备，出发去迷宫探索财宝吧！每次进入迷宫都会进行变化，在最深处有这穷凶极恶的BOSS在等着你们。当你攻略了迷宫，开放了世界之力时，你将会被授予全新的力量吧。</p>
+<p>渔业</p>
+<p>在创世理想乡中，当然可以进行垂钓。你永远可以相信创世理想乡。这里有30多种鱼类，你可以将钓上的鱼烹饪，也可以用龟壳等做盾牌！如果通过钓鱼你喜欢上了大海的话，你甚至可以变成渔民，制作船在大海上进行捕鲸！</p>
+<p>交通工具</p>
+<p>漂浮滑板，摩托车，直升机，汽车，双翼机，坦克，热气球，以及工地特种车……收集材料创造最好的交通工具吧！队伍全员都能乘坐的交通工具，会非常适合世界旅行的！</p>
+<p>技能树</p>
+<p>你可以从100多种技能中选择适合你的技能，创造你独自的角色。擅长生产的，擅长大剑的，擅长自动化的，根据你自己的游玩方法选择适合自己的技能，来探索这个世界吧！</p>
+<p>人物制作</p>
+<p>性别，种族，发型，眼睛，脸，肤色，胡子，脸部涂饰。。你可以在此游戏中创造出属于你的古神！</p>
+<p>多人运动</p>
+<p>本游戏可以进行多人协作运动。你可以在此游戏中叫上三两朋友，游山玩水迷宫探险，亦可天马行空建筑世界，也可太公钓鱼愿者上钩，如何游玩任君想象。</p>
+<p>https://pan.baidu.com/s/1xZTjuCdZAq-RYrmAhPpA4A</p>
+<p class="dTitle"><span>選普通下載</span></p>
+<!--<a href="javascript:;" referrerpolicy="no-referrer" target="_blank"><img src="../imgs/d.png" alt="下載"/><em>Google Drive Etc 資源正在趕來..</em></a> -->
+<a href="javascript:;" referrerpolicy="no-referrer" target="_blank"><img src="../imgs/d.png" alt="下載"/><em>Other 資源正在趕來..</em></a>
+解壓: msncc
+</pre>
+<p class="disSty">分享學習資訊 或 資源,如有失效的,請留言 <br>更多下載通道正在更新....<br>資源收集于網絡,僅供學習研究,製作不易,若是喜歡,請考慮補上正版,再體驗離綫暢玩。<br>
+可到官網或其他平臺 搜索購買</p>
+	</div>
+	</div>
+	<div class="vL">
+		<!-- <a href="视频链接"><img src="../imgs/yt.png"/><em>視頻演示</em></a> -->
+		<a href="javascript:;"><img src="../imgs/gb.png" alt="詳情"><em>詳情 | 催促</em></a>
+	</div>
+<!--content end--> 
+	</div>
+	<div class="ctrl">
+	<a class="btn_2" id="back" href="javascript:history.go(-1)"></a>
+	<a class="btn_2" id="prev" onclick="prevPage();"> </a>
+	<a class="btn_2" id="next" onclick="nextPage();"></a>
+		<div class="clear"></div>
+	</div> 
+
+	<div class="header_info" id="uTop" style="display:none">
+		<a href="#top0"><img src="../imgs/down2.png"></a>
+	</div>
+	<div class="header_info" id="dTop" style="display:block;">
+		<a href="#end0"><img src="../imgs/down.png"></a>
+	</div>
+	<div id="
+	"></div>
+	<a name="end0"></a>
+	<div class="isUnder">	  
+		 <div class="pageInfo">
+			<div id="setpage"></div> <!-- Page info -->
+			<div id="btnArea"></div>
+			
+			<div class="jumpArea">
+			<span id="pageMount0"></span>
+			<input id="jump" type="text" placeholder="" value="" style="min-height:30px; font-size:23px; width:100px; text-align:center;"/>
+			<span id="pageMount"></span>
+			<a href="javascript:;" onclick="jumpPage()">Go</a>
+			</div>
+		  </div>
+		<!-- 	 -->
+	</div>
+<!-- -->
+<div id="container0"></div>
+</div>
+<div class="right0"></div>
+</div>
+<script src="../js/up.js"></script> 
+</body>
+</html>

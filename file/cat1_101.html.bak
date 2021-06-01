@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta content="telephone=no" name="format-detection" /> 
+  <meta content="email=no" name="format-detection" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+  <meta name="apple-mobile-web-app-capable" content="yes" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes"/>
+  <meta name="description" content="yu-no是由elf开发的galgame冒险游戏學習版,破解學習版">
+<meta name="keywords" content="在世界尽头咏唱恋曲的少女YU-NO，世界尽头歌唱恋曲的少女中文汉化，galgame學習版,破解學習版">
+<meta property="og:description" content="yu-no是由elf开发的galgame冒险游戏最新版,學習版,破解學習版純净綠色游戲,軟件,學習等資源分享下載@msncc美少女cc">
+<meta property="og:title" content="在世界尽头咏唱恋曲的少女YU-NO，世界尽头歌唱恋曲的少女中文汉化，galgame最新版,學習版,破解學習版@msncc美少女cc">
+<meta property="og:site_name" content="msncc美少女cc">
+<title>在世界尽头咏唱恋曲的少女YU-NO，世界尽头歌唱恋曲的少女中文汉化，galgame - 美少女cc | msncc</title>
+<link rel="shortcut icon" href="#"/> 
+<link rel="stylesheet" href="../css/style.css" />
+<!-- <link rel="stylesheet" href="../css/m.css" /> -->
+<script src="../js/m0.js"></script> 
+<script src="../js/detTxt.js"></script> 
+<script src="../js/pic.js"></script>   
+</head> 
+<body>
+<div class="bg_pic">
+<div class="bg_filter"></div>
+</div> 
+<div id="cbtn0" class="cbtn" onclick="creatEle('cWin')"><a href="javascript:;" alt="close"></a></div>
+<div id="Cus0" class="showdt">
+</div>
+<div class="t-main">
+<div class="left0">
+	<div class="logo">
+		<a href="../index.html"><img src="../imgs/logo.png" alt="主頁"/></a>
+	</div> 
+	<div class="nav_footer"> 
+		<div class="follow">
+		<a href="#" onclick="window.open('https://twitter.com/home?status=' + encodeURIComponent(window.location),'_blank'); return false"><span class="m_tw" title="Twitter"></span></a>
+
+		<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location),'_blank'); return false"> <span class="m_fb" title="Fb"></span></a>
+		</div>
+
+		<div class="copy">
+      Copyright@msncc<br/>
+      pursue NewLife
+      </div>
+	</div>
+</div> 
+
+<div class="center0">
+	<div class="nav"> 
+		<div class="nav_icon">
+			<a href="../news_all.html"><img src="../imgs/all.png" alt="搜索頁" /></a>
+		</div> 
+		<div class="side_close"></div> 
+		<ul id="isMenu2" class="off">
+		<li>
+			<div class="title">
+			<a href="../index.html" target="_self">主頁<em>Home</em></a>
+			</div>
+		</li>
+		<li class="">
+			<div class="title">
+			<a href="../news_all.html" target="_self">搜索<em>Search</em></a>
+			</div>
+		</li> 
+		<li class="">
+			<div class="title">
+			<a href="../nav.html" target="_self">導航<em>Navigation</em></a>
+			</div>
+		</li>
+		<li class="">
+			<div class="title">
+			<a href="../index.html#end0" target="_self">關於<em>Message</em></a>
+			</div>
+		</li>     
+		</ul> 
+	</div> 
+	<a name="top0"></a>  
+	<div class="catg_name">				
+		<!-- <a href="javascript:;" id="area0" onclick="otherStyle('0')">show</a> -->
+		<a href="javascript:;" id="area0">show</a>
+	</div> 
+	<span id="tempT" style="top:0;"></span>
+	<div class="side_r news_detail">
+	<div id="showArea0"></div>
+	<div id="showArea1">
+	<div class="pdetail">
+	<h1>在世界尽头咏唱恋曲的少女YU-NO，世界尽头歌唱恋曲的少女中文汉化，galgame - 美少女cc | msncc</h1>
+	<div id="sVideo" class="video0"></div>
+<pre>
+<p class="dTitle"><span>介紹</span></p>
+<p></p>
+<p>本作在ELF众多游戏中得了到非常高的评价，除了丰富的剧情，细致的人物刻画，</p>
+<p>还蕴涵了对于宇宙，人生，价值的深邃思考，可以说是ELF的一部巨作。</p>
+<p><br></p>
+<p> </p>
+<p>故事的剧情分3大部分：序章、现代编和异世界编。序章和异世界编是单线式、传统的AVG，只有选项供选择；现代编则可以象同级生那样，可以自由地执行调查、对话、移动、使用道具等指令。整个游戏剧情非常之浩大，纷繁复杂，因此游戏提供了一个被称作“A.D.M.S”的系统，以辅助了解剧情的分歧和展开。</p>
+<p> </p>
+<p>原版剧情：</p>
+<p><br></p>
+<p>主角是与父亲有马广大以及后母亚由美住在一起的高中三年级学生，经常不在家的考古学家父亲两个月前，刚刚离奇的过世，而亚由美也成为了新婚三个月就便成为未亡人的情况。</p>
+<p><br></p>
+<p>　　在主角周围有自小一起长大的校园偶像澪（みお）、看来轻浮的校医绘里子、担任非常勤讲师的美月、以及校长也是老爸研究伙伴的龙造寺。</p>
+<p>　　某日主人拿到了死去父亲寄来的信，信内是语焉不详的“平行世界”理论和奇怪的用具。深夜来到信上所说海滨地点的主角，看到了一名倒地的裸女。女性看到主角后，支撑着吻了主角而后怀着笑容而死。呆立的主角背后传来声音，那是父亲的研究伙伴声音–龙造寺说：</p>
+<p><br></p>
+<p>　　这世界有无限的存在可能性，若是要在所有世界中移动必须借由你手上那东西才行。</p>
+<p>　　拒绝对方武力威胁的主角脚下，在要被杀死的瞬间发生了地震，同时一个月前才转校的同班同学–神奈也卷入了这一切…，主角在冲击之下昏了过去…。</p>
+<p>这只是故事的序章而已，而主角全然不知这个世界，或者说是他所在的世界已经有了巨大的改变。</p>
+<p><span style="color: rgb(0, 112, 192);">含攻略 和 最强道具存档，可跳过本篇攻略，直接进入完美结局攻略 - 视频是英文重置版的</span></p>
+
+<p class="dTitle"><span>選普通下載</span></p>
+<a href="https://u062.com/f/31236040-1771132912344132-411508" referrerpolicy="no-referrer" target="_blank"><img src="../imgs/d.png" alt="下載"/><em>Other ..</em></a>
+解壓: 
+msncc
+美少女cc
+</pre>
+<p class="disSty">
+每次分享學習只保留7天，錯過失效一般不再補,有人留言 還是 會找時間補鏈 或 私信哦  >   <br>更多下載通道正在更新....<br>資源收集于網絡,僅供學習研究,游戲製作不易,若是喜歡,請考慮補上正版,再體驗免客戶端離綫暢玩。<br>
+可到steam 等平臺 搜索購買</p>
+	</div>
+	</div>
+	<div class="vL">
+		<!-- <a href="javascript:;" referrerpolicy="no-referrer" target="_blank"><img src="../imgs/vl0.png"/><em>視頻演示</em></a> -->
+	</div>
+<!--content end--> 
+	</div>
+	<div class="ctrl">
+	<a class="btn_2" id="back" href="javascript:history.go(-1)"></a>
+	<a class="btn_2" id="prev" onclick="prevPage();"> </a>
+	<a class="btn_2" id="next" onclick="nextPage();"></a>
+		<div class="clear"></div>
+	</div> 
+
+	<div class="header_info" id="uTop" style="display:none">
+		<a href="#top0"><img src="../imgs/down2.png"></a>
+	</div>
+	<div class="header_info" id="dTop" style="display:block;">
+		<a href="#end0"><img src="../imgs/down.png"></a>
+	</div>
+	<div id="
+	"></div>
+	<a name="end0"></a>
+	<div class="isUnder">	  
+		 <div class="pageInfo">
+			<div id="setpage"></div> <!-- Page info -->
+			<div id="btnArea"></div>
+			
+			<div class="jumpArea">
+			<span id="pageMount0"></span>
+			<input id="jump" type="text" placeholder="" value="" style="min-height:30px; font-size:23px; width:100px; text-align:center;"/>
+			<span id="pageMount"></span>
+			<a href="javascript:;" onclick="jumpPage()">Go</a>
+			</div>
+		  </div>
+		<!-- <div class="isms">
+				 Line:      
+		  <br/>Facebook:  
+		  <br/>Mail:  
+		</div>	 -->
+	</div>
+<!-- -->
+<div id="container0"></div>
+</div>
+<div class="right0"></div>
+</div>
+<script src="../js/up.js"></script> 
+</body>
+</html>
