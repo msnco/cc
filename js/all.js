@@ -591,9 +591,7 @@ if(inputVal.length >= matchRes){
 	showAll();
 }else if(inputVal == ""){
 	By("searchTxt").value = "";
-	By("data_list").style.display="none";  
-	arr = defArr;
-	arr0 = defArr0;
+	By("data_list").style.display="none";
 }
 serResuCount = 0;
 }
