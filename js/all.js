@@ -222,7 +222,7 @@ defArr = arr;
 defArr0 = arr0;
 
 /*create content list*/
-var pVal0 = pVal1 = 0;
+var pVal0 = pVal1 = resuT = 0;
 sty0 = "<span class='list0 list2'>";
 function setpage() {   // 初始化or重繪 頁面列表
 	pVal0 = parseInt((curPage-1)/pageLen);  //計算 當前所在頁 在第幾頁 分頁
@@ -445,6 +445,7 @@ function cHant(){
 /*search end*/
 /*空格分詞,不分開視爲1個單詞*/
 function serCon(enDown){
+	resuT = 0;
 	newI = 0;
 	arr = [];
 	arr0 = [];
@@ -581,6 +582,7 @@ if(inputVal.length >= matchRes){
 			//
 			showAll();
 		}
+		resuT = 1;
 	}
 }else if(inputVal == "" && enDown == "ct1" ){
 	By("data_list").style.display="none";
@@ -591,9 +593,13 @@ if(inputVal.length >= matchRes){
 	showAll();
 }else if(inputVal == ""){
 	By("searchTxt").value = "";
-	By("data_list").style.display="none";
+	By("data_list").style.display="none";  
 }
 serResuCount = 0;
+if(resuT == 0 && enDown == "ct0"){
+	arr = defArr;
+	arr0 = defArr0;
+}
 }
 
 function setColor(str, key){  //  ([^<.*>])   .replace(/<font[^>]+>/ig,'')
@@ -616,8 +622,6 @@ function create_data() {
 	}
 	By("data_list").innerHTML = add_item; 
 	By("data_list").style.display="block";
-	arr = defArr;
-	arr0 = defArr0;
 } 
  
 function showAll(){
