@@ -585,6 +585,7 @@ if(inputVal.length >= matchRes){
 		resuT = 1;
 	}
 }else if(inputVal == "" && enDown == "ct1" ){
+	resuT == 1;
 	By("data_list").style.display="none";
 	By("searchTxt").className = "";
 	amountPage = Math.ceil(ctrlImg/showNums);
@@ -596,7 +597,7 @@ if(inputVal.length >= matchRes){
 	By("data_list").style.display="none";  
 }
 serResuCount = 0;
-if(resuT == 0 && enDown == "ct0"){
+if(resuT == 0 || enDown == "ct0"){
 	arr = defArr;
 	arr0 = defArr0;
 }
