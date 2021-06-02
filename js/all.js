@@ -63,7 +63,9 @@ var catNums = (Object.keys(text1).length)/langSum;
 function catLan(){
 	var aaa = "";
 	for(var i = 0; i < catNums; i++){
-		 aaa += "<a href='#' onclick='showCat("+i+")'>"+text1["mKey"+(i+1)+lang]+"</a>";
+		if(text1["mKey"+(i+1)+lang] != ""){
+			aaa += "<a href='#' onclick='showCat("+i+")'>"+text1["mKey"+(i+1)+lang]+"</a>";
+		}
 	}
 	By("sKey").innerHTML = aaa;
 }
