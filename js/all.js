@@ -372,7 +372,7 @@ function wExist(s,aVal){
 	}
 }
 
-function coverCheck(i,s){
+function coverCheck(s){
 	var sLen = searchStr.length;
 	for(var ts=0; ts < overcheck.length; ts++){  
 		cStr = overcheck[ts].split("-");
@@ -413,12 +413,12 @@ function arrSum(){
 		//console.log(matWord);
 	}
 }
-function addWord(i,j){
+function addWord(i){
 	//if(matWord.length >= 1){console.log(i+" 匹配内容= "+matWord+" 匹配次數 = "+matNum);}
 	if(arr.length == 0 && matNum == 1){
-		arrTemp.push((j+1)+"_"+i); arrLen0.push(aLen); strTemp.push(str0);
+		arrTemp.push(i); arrLen0.push(aLen); strTemp.push(str0);
 	}else if(matNum >= 2){
-		arr.push((j+1)+"_"+i);   
+		arr.push(i);   
 		arrLen.push(aLen);    
 		arr0.push(str0);  
 		arrTemp = [];
@@ -446,6 +446,7 @@ function cHant(){
 }
 /*search end*/
 /*空格分詞,不分開視爲1個單詞*/
+var gList = "";
 function serCon(enDown){
 	resuT = 0;
 	newI = 0;
@@ -462,9 +463,11 @@ function serCon(enDown){
 		cHant();
 	}
 if(inputVal.length >= matchRes){
-	for(var j=0; j<tLen.length; j++){
-	for(var i=1; i<=tLen[j]; i++){
-	if(dtp[j][(j+1)+"_"+i][0]["en"] != "00"){
+
+	for(var i=0; i<uTime2.length; i++){
+	gList = parseInt(uTime2[i].substring(0,1));
+		
+	if(dtp[gList-1][uTime2[i]][0]["en"] != "00"){
 	jword = 0;
 	matNum=0;
 	aLen = 0;
@@ -475,7 +478,7 @@ if(inputVal.length >= matchRes){
 			break;
 		}	
 	}
-	str0 = dtp[j][(j+1)+"_"+i][0][lang];       // 只作顯示用
+	str0 = dtp[gList-1][uTime2[i]][0][lang];       // 只作顯示用
 	str = str0.replace(regs,"");  
 	str = str0.replace(/\s{2,}/g," ");
 	str = str0.toLowerCase();
@@ -506,7 +509,7 @@ if(inputVal.length >= matchRes){
 						if(searchStr.match(regZh) != null){ //漢字另外處理
 						tureN = matchRes;}else{tureN = matchRes+2;}
 						if(searchStr.length >= tureN || cutArr[s] == searchStr || preStr == "" && nextStr == "" ){
-							coverCheck(i,s);
+							coverCheck(s);
 							if(tNum == 0){            // null
 								matWord.push(searchStr);
 								n = cutArr[s].length+1;   
@@ -530,10 +533,10 @@ if(inputVal.length >= matchRes){
 		str0 = setColor(str0,matWord[sc]);
 	} 
 	arrSum();
-	addWord(i,j);
+	addWord(uTime2[i]);
 	}
 	}
-	}
+
 	/*pageNums 結束*/
 	var snTemp = 0;	
 	function sortNumber(aL,aResu){          
