@@ -126,7 +126,12 @@ wHome();
 function By(id){
 	return document.getElementById(id);
 }
-
+function aData(){
+	if(cLink !=""){
+		By("iLearn").innerHTML = '<a href="'+cLink+'" referrerpolicy="no-referrer" target="_blank">學習<em>Data</em></a>';
+	}
+}
+aData();
 var st = speed = num = 0;
 function fadeOut(cVal){
 	By("tempT").style.display = "block";
