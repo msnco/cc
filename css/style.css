@@ -585,8 +585,8 @@ a#next:before{content:'Next'; }
     display: inline-block;line-height: 40px;
     text-align: center;overflow:hidden;}
  #newsAll{margin-top:25px;}
- #newsAll li{padding:0 5px; overflow:hidden;}
- .imgSize{overflow:hidden; margin-top:5px;height:100%;float:left; margin:0 20px 15px 0;}
+ #newsAll li{margin-top:10px; overflow:hidden;}
+ .imgSize{overflow:hidden; margin-top:5px;height:100%;float:left; margin:0 20px 0 0;}
  .isms{margin-top:70px; }
  .aLists{text-align:center; word-wrap:break-word;  word-break:break-all;  line-height:35px; }
 
@@ -843,7 +843,7 @@ border-radius: 10px 0 20px 0;text-align: center;line-height: 40px;overflow: hidd
 /*評論覆蓋*/
 
 .v[data-class=v] .vemojis i{width:45px!important;}
-.v[data-class=v] .vemoji{max-width:33px!important;}
+.v[data-class=v] .vemoji{max-width:43px!important;}
 .v[data-class=v] .veditor{font-size:1.2em!important;color:#a2a2a2!important;}
 .v[data-class=v] p{font-size:1.5em!important;color:#417e95!important;}
 .v[data-class=v] .vnick,.vinput{font-size:18px!important; color:#d57633!important;}
