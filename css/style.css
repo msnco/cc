@@ -1004,7 +1004,7 @@ border-radius: 10px 0 20px 0;text-align: center;line-height: 40px;overflow: hidd
 	.ser_box p{height:50px; line-height:50px;}
 	.newsAllTitle p{clear:both;height:90px;min-height:100%;/* margin-bottom:10px; */}
 	.newsAllTitle span{display:none;}
-	#newsAll li{float:left;width:45%; margin-top:10px;}
+	#newsAll li{float:left;width:45%; padding:10px 5px 0 5px;}
 	.imgSize{margin:0;}
 }
 @media screen and (max-width: 640px) {
