@@ -141,22 +141,6 @@ document.onkeydown = function(e){
 		  timeoff =0; 
 		  fnDelay("ct1"); //to cleartime =1  
 	    }
-	}else{
-		switch(e.keyCode) {
-		case 37:
-			prevPage();
-			break;
-		case 38:
-			document.body.scrollTop = 0;
-			document.documentElement.scrollTop = 0;
-			break;
-		case 39:
-			nextPage();
-			break; 
-		case 40:
-			window.scrollTo(0,document.body.scrollHeight);
-			break; 		  
-		} 
 	}
 }
 //
