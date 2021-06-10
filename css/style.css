@@ -829,7 +829,7 @@ text-align:center;border-radius:0 0 10px 10px;}
 .pdetail a{display:block;}
 .pdetail a:hover{background:#ffffff0d;}
 /* .pdetail img{width:100%;} 圖片寬度拉直最大,再設置img本身最大寬度*/
-.cTag{width:65px;height:40px; background:#3e4b8d;position: absolute;z-index: 98;
+.cTag{width:65px;height:40px; background:#242b33;position: absolute;z-index: 98;
 border-radius: 10px 0 20px 0;text-align: center;line-height: 40px;overflow: hidden;}
 
 .disSty{background:#562626;line-height:50px;font-size:22px;opacity:0.7;}
