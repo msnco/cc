@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="zh">
 <head>
+<!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
 <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="telephone=no" name="format-detection" />
 <meta content="email=no" name="format-detection" />
@@ -445,7 +446,7 @@ function request_data(event){
 	if(e.keyCode != 40 && e.keyCode != 38 && e.keyCode != 13){
 	num0 = 0;
 	if(def_text.value != ""){
-		var sugurl = "http://api.bing.com/qsonhs.aspx?type=cb&q=#content#&cb=window.bing.sug";
+		var sugurl = "https://api.bing.com/qsonhs.aspx?type=cb&q=#content#&cb=window.bing.sug";
 		var content = def_text.value;
 		sugurl = sugurl.replace("#content#", content);
 			window.bing = {           //定義回調
