@@ -68,7 +68,7 @@ html,body{scroll-behavior:smooth;}
 		<option id="searSel" style="display:none;"></option> 
 		<option value="bd">Baidu</option> 
 	</select> 
-	<input id="def_text" name="key" autocomplete="off" placeholder="探索平行世界,唤醒梦中人" onkeyup="request_data()"/> 
+	<input id="def_text" name="key" autocomplete="off" placeholder="探索平行世界,唤醒梦中人"/> 
 	<button class="btn" type="button" onclick="accept()" onmouseover="this.style.opacity='0.7'" onmouseout="this.style.opacity='1'">搜索</button>
   </div>
   <ul id="data_list"></ul> 
@@ -342,7 +342,7 @@ pNavC.onmousedown = function(ev) {
 };
 /*search*/
 var key="";
-var optioned = "https://www.google.com/search?q=";
+var optioned = "https://www.baidu.com/s?word=";
  if(localStorage.getItem("Op") != undefined){
    optioned = localStorage.getItem("OpLink");   
    document.getElementById("searSel").innerText = localStorage.getItem("Op"); 
@@ -351,16 +351,8 @@ var optioned = "https://www.google.com/search?q=";
  }
  
 function searIndex(curSel){
-	if(cur_seh.value == "by"){
-		optioned = "https://www.bing.com/search?q=";
-	}else if(cur_seh.value == "mj"){
-		optioned = "https://mijisou.com/?q=";
-	}else if(cur_seh.value == "bd"){
+	if(cur_seh.value == "bd"){
 		optioned = "https://www.baidu.com/s?word=";
-	}else if(cur_seh.value == "dg"){
-	     optioned = "https://www.dogedoge.com/results?q=";    
-	}else if(cur_seh.value == "gg"){
-	     optioned = "https://www.google.com/search?q=";    
 	}
 	Optxt = curSel.options[curSel.options.selectedIndex].text; 	
 	localStorage.setItem("Op",Optxt); 
@@ -372,6 +364,14 @@ function accept(){
 	key = key.trim();
 	if(key !=""){	
 		open(optioned + key);	
+	}
+}
+document.onkeydown = function(e){
+	e = e||window.event;
+	if(event.target.id =="def_text"){
+		if(e.keyCode==13 ){
+		  accept();
+	    }
 	}
 }
 
@@ -448,8 +448,9 @@ function onDown(){
 	 }
 	}
 }
-onDown();
+//onDown();
 function request_data(){
+	/*
     e = event || window.event;
 	if(e.keyCode != 40 && e.keyCode != 38 && e.keyCode != 13){
 	num =0;
@@ -468,7 +469,7 @@ function request_data(){
 		var script = document.createElement("script");
 		script.src = sugurl;
 		document.getElementsByTagName("head")[0].appendChild(script);
-		/*  */
+
 	}else{
 		data_list.style.display = "none";
 	}
@@ -476,7 +477,7 @@ function request_data(){
     accept();
   }else{
     onDown();
-  }
+  }*/
 }
 </script> 
 </script> 
