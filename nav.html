@@ -17,6 +17,7 @@
 <meta name="keywords" content="" />
 <link rel="stylesheet" type="text/css" href="css/style.css" > 
 <link rel="shortcut icon" href="#"/>   <!-- favicon.ico 404 -->
+<base target="_blank"/>
 <style>
 #gPic{text-align:center;opacity:0.7;background:#ffffff;}
 #cur_seh{font-family: 宋体;
@@ -52,6 +53,7 @@ html,body{scroll-behavior:smooth;}
 #def_text{width:85%;}
 .btn{width:15%;}
 }
+#mNav{width:90%;}
 </style>
 </head>
 <body>
@@ -68,6 +70,7 @@ html,body{scroll-behavior:smooth;}
 	<select id="cur_seh" name="seh" size="1" onchange="searIndex(this)"> 
 		<option id="searSel" style="display:none;"></option> 
 		<option value="bd">Baidu</option> 
+		<option value="sogou">Sogou</option> 
 	</select> 
 	<input id="def_text" name="key" autocomplete="off" placeholder="Search" onkeyup="request_data(event)"/> 
 	<button class="btn" type="button" onclick="accept()" onmouseover="this.style.opacity='0.7'" onmouseout="this.style.opacity='1'">搜索</button>
@@ -77,7 +80,7 @@ html,body{scroll-behavior:smooth;}
 <div class="pNav"><div id="cNav"></div></div>
 
 <div class="sCat" style="width:90%">
-<img style="height:100%;" src="imgs/nav-icon.png" alt="更多"/>
+<img style="height:100%;" src="imgs/nav-icon.png" alt="更多"><!-- <ul class="tdiv"></ul> --></img>
 <ul id="mNav" class="off menu2 type02">
 	<a href="#md1">Ico下載</a>
 	<a href="#md2">音樂下載</a>
@@ -247,47 +250,31 @@ html,body{scroll-behavior:smooth;}
 <div class="right0"></div>
 </div>
 <script type="text/javascript" language="JavaScript">
-	function By(id){
-		return document.getElementById(id);
-	}
-   By("gPic").innerHTML = "<a><img src='imgs/"+Math.round(Math.random()*5)+".gif'></a>";
-	var firC = scrollTag = 0;
-	window.onscroll = function() {
-		scrollTag = document.documentElement.scrollTop || document.body.scrollTop;
-		switch(firC){
-			case 0:
-			if(scrollTag >= 200){
-				firC = 1;
-				By("dTop").style.display = "none";
-				By("uTop").style.display = "block";
-			}
-			case 1:
-			if(scrollTag < 200){
-				firC = 0;
-				By("dTop").style.display = "block";
-				By("uTop").style.display = "none";
-			}
-			break;
-		}
-	}
-	By("cNav").innerHTML = By("mNav").innerHTML;
-
-var st = speed = num = 0;
-function fadeOut(cVal){
-	By("tempT").style.display = "block";
-	clearInterval(st); 
-	By("tempT").innerText = cVal;
-	speed = speed || 20 ;
-	num = 50;
-	st = setInterval(function(){
-		num--;
-		By("tempT").style.opacity = num / 25 ;
-		if(num <= 0){   
-			clearInterval(st); 
-			By("tempT").style.display = "none";
-		}
-	},speed);
+function By(id){
+	return document.getElementById(id);
 }
+By("gPic").innerHTML = "<a><img src='imgs/"+Math.round(Math.random()*5)+".gif'></a>";
+var firC = scrollTag = 0;
+window.onscroll = function() {
+	scrollTag = document.documentElement.scrollTop || document.body.scrollTop;
+	switch(firC){
+		case 0:
+		if(scrollTag >= 200){
+			firC = 1;
+			By("dTop").style.display = "none";
+			By("uTop").style.display = "block";
+		}
+		case 1:
+		if(scrollTag < 200){
+			firC = 0;
+			By("dTop").style.display = "block";
+			By("uTop").style.display = "none";
+		}
+		break;
+	}
+}
+By("cNav").innerHTML = By("mNav").innerHTML;
+
 function dRept(arr) {
  return arr.filter(
 	function(item, index, arr) {
@@ -313,7 +300,7 @@ arr = dRept(arr);
 if(arr.length >= 4){arr.splice(0, 1);}
 wReS();
 var ele = document.getElementsByTagName("li");
-for(var i = 0; i < ele.length; i++){
+for(var i = 5; i < ele.length; i++){
 	(function(j){
 		ele[j].onclick=function(){
 			arr.push("<li>"+ele[j].innerHTML+"</li>");
@@ -352,8 +339,12 @@ var optioned = "https://www.baidu.com/s?word=";
  }
  
 function searIndex(curSel){
-	if(cur_seh.value == "bd"){
+	switch(cur_seh.value){
+		case "bd":
 		optioned = "https://www.baidu.com/s?word=";
+		break;
+		case "sogou":
+		optioned = "https://www.sogou.com/web?query=";
 	}
 	Optxt = curSel.options[curSel.options.selectedIndex].text; 	
 	localStorage.setItem("Op",Optxt); 
