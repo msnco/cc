@@ -253,7 +253,7 @@ var valTwo = showNums;
 var indexVal = 0,ranNum = 0;
 var curView = 1;
 var gTstr = "";
-function gotopage(nextNums){
+async function gotopage(nextNums){
 //	console.log(arr+" :: "+arr0);
 	curPage = nextNums;
 	localStorage.curView = curPage;
