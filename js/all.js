@@ -253,7 +253,7 @@ var valTwo = showNums;
 var indexVal = 0,ranNum = 0;
 var curView = 1;
 var gTstr = "";
-var gGroup = '<ins class="adsbygoogle" style="display:block;margin-top:10px;" data-ad-format="fluid" data-ad-layout-key="-d0-8q+1h+e7+kh" data-ad-client="ca-pub-1937515231401291" data-ad-slot="7813549177"></ins>',gGroup0 = '<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1937515231401291" data-ad-slot="7283788911" data-ad-format="auto" data-full-width-responsive="true"></ins>';
+var gGroup = '<ins class="adsbygoogle" style="display:block;margin-top:10px;" data-ad-format="fluid" data-ad-layout-key="-d0-8q+1h+e7+kh" data-ad-client="ca-pub-1937515231401291" data-ad-slot="7813549177"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>',gGroup0 = '<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1937515231401291" data-ad-slot="7283788911" data-ad-format="auto" data-full-width-responsive="true"></ins>';
 function gotopage(nextNums){
 //	console.log(arr+" :: "+arr0);
 	curPage = nextNums;
@@ -637,4 +637,3 @@ By("next").setAttribute("data-content", "Next" );
 function reFlush(){
 	(adsbygoogle = window.adsbygoogle || []).push({});
 }
-reFlush();
