@@ -250,17 +250,16 @@ function setpage() {   // 初始化or重繪 頁面列表
 
 /*create page list*/
 var valTwo = showNums;
-var indexVal = 0;
+var indexVal = 0,ranNum = 0;
 var curView = 1;
 var gTstr = "";
+var gGroup = '<ins class="adsbygoogle" style="display:block;margin-top:10px;" data-ad-format="fluid" data-ad-layout-key="-d0-8q+1h+e7+kh" data-ad-client="ca-pub-1937515231401291" data-ad-slot="7813549177"></ins>',gGroup0 = '<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1937515231401291" data-ad-slot="7283788911" data-ad-format="auto" data-full-width-responsive="true"></ins>';
 function gotopage(nextNums){
 //	console.log(arr+" :: "+arr0);
 	curPage = nextNums;
 	localStorage.curView = curPage;
-
-	indexVal = (curPage-1)*showNums;						
-	valTwo = curPage*showNums;	
-	
+	indexVal = (curPage-1)*showNums;					
+	valTwo = curPage*showNums;
 	By("data_list").style.display="none";
 	By("pageMount0").innerHTML = "Page "+curPage+"";
 	By("pageMount").innerHTML = " Total "+amountPage +"";
@@ -268,16 +267,23 @@ function gotopage(nextNums){
 	if(arr.length < valTwo){
 		valTwo = arr.length;
 	}
+	ranNum = Math.floor(Math.random() * (valTwo - indexVal + 1)) + indexVal;
 	for(var i=indexVal; i<valTwo; i++){
+		if(i == ranNum){
+			creatImg += gGroup;
+		}
 		gTstr = arr[i].substring(0,1);
-		creatImg += "<li><a href='file/"+fName+arr[i]+".html'> <div class='imgSize'><img class='lazy' src='imgs/load.gif' data-echo='picture/view/"+fName+arr[i]+".jpg'/></div></a><div class='newsAllTitle'><p>"+arr0[i]+"</p><span class='tView'>"+dtp[gTstr-1][arr[i]][0]["1"]+"</span></div></li>";
+		creatImg += "<li><a href='file/"+fName+arr[i]+".html'> <div class='imgSize'><img class='lazy' src='imgs/load.gif' data-echo='picture/view/"+fName+arr[i]+".jpg'/></div></a><div class='newsAllTitle'><p>"+arr0[i]+"</p><span class='tView'>"+dtp[gTstr-1][arr[i]][0]["1"]+"</span></div></li>";	
 	}
 	creatLists = creatLists + creatImg;
 	By("newsAll").innerHTML = creatLists;
+	By("aLeft").innerHTML = gGroup0;
+	By("aRight").innerHTML = gGroup0;
 	creatImg = "";
 	setpage();
 	location.href = "#top0";
 	picLazy();
+	reFlush();
 }
 
 if(localStorage.curView != undefined){
@@ -627,3 +633,7 @@ function showAll(){
 }
 By("prev").setAttribute("data-content", "Prev" );
 By("next").setAttribute("data-content", "Next" );
+
+function reFlush(){
+	(adsbygoogle = window.adsbygoogle || []).push({});
+}
