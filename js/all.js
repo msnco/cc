@@ -637,3 +637,4 @@ By("next").setAttribute("data-content", "Next" );
 function reFlush(){
 	(adsbygoogle = window.adsbygoogle || []).push({});
 }
+reFlush();
