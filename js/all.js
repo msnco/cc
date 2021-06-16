@@ -254,6 +254,7 @@ var indexVal = 0;
 var curView = 1;
 var gTstr = "",gGroup = '<ins class="adsbygoogle" style="display:block;" data-ad-format="fluid" data-ad-layout-key="-d0-8q+1h+e7+kh" data-ad-client="ca-pub-1937515231401291" data-ad-slot="7813549177"></ins>';
 function gotopage(nextNums){
+	location.href = "#top0";
 //	console.log(arr+" :: "+arr0);
 	curPage = nextNums;
 	localStorage.curView = curPage;
@@ -276,7 +277,6 @@ function gotopage(nextNums){
 	By("newsAll").innerHTML = creatLists;
 	creatImg = "";
 	setpage();
-	location.href = "#top0";
 	picLazy();
 	(adsbygoogle = window.adsbygoogle || []).push({});
 }
