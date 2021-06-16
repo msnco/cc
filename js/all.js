@@ -632,7 +632,8 @@ By("prev").setAttribute("data-content", "Prev" );
 By("next").setAttribute("data-content", "Next" );
 
 function reFlush(){
-	if(window.adsbygoogle != undefined){
+	adsbygoogle = adsbygoogle = window.adsbygoogle || [];
+	if(adsbygoogle != undefined){
 		setTimeout(function(){(adsbygoogle = window.adsbygoogle || []).push({})}, 500);
 	}
 }
