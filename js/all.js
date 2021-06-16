@@ -250,10 +250,11 @@ function setpage() {   // 初始化or重繪 頁面列表
 
 /*create page list*/
 var valTwo = showNums;
-var indexVal = 0,ranNum = 0;
+var indexVal = 0,ranNum = 0,countN = 0;
 var curView = 1;
 var gTstr = "";
 function gotopage(nextNums){
+	countN++;
 //	console.log(arr+" :: "+arr0);
 	curPage = nextNums;
 	localStorage.curView = curPage;
@@ -280,7 +281,7 @@ function gotopage(nextNums){
 	setpage();
 	location.href = "#top0";
 	picLazy();
-	reFlush();
+	reFlush(countN);
 }
 
 if(localStorage.curView != undefined){
@@ -631,8 +632,14 @@ function showAll(){
 By("prev").setAttribute("data-content", "Prev" );
 By("next").setAttribute("data-content", "Next" );
 
-function reFlush(){
+function reFlush(val){
+	
+	if(val != 1){
+		val = 1000;
+	}else{
+		val = 3000;
+	}
 	timer = setTimeout(function(){
-		(adsbygoogle = window.adsbygoogle || []).push({});        
-	}, 1500)
+			(adsbygoogle = window.adsbygoogle || []).push({});        
+	}, val)
 }
