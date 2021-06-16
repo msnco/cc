@@ -269,7 +269,7 @@ function gotopage(nextNums){
 	ranNum = Math.floor(Math.random() * (valTwo - indexVal + 1)) + indexVal;
 	for(var i=indexVal; i<valTwo; i++){
 		if(i == ranNum){
-			creatImg += '<ins class="adsbygoogle" style="display:block;margin-top:10px;" data-ad-format="fluid" data-ad-layout-key="-d0-8q+1h+e7+kh" data-ad-client="ca-pub-1937515231401291" data-ad-slot="7813549177"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>';
+			creatImg += '<ins class="adsbygoogle" style="display:block;margin-top:10px;" data-ad-format="fluid" data-ad-layout-key="-d0-8q+1h+e7+kh" data-ad-client="ca-pub-1937515231401291" data-ad-slot="7813549177"></ins><script defer>(adsbygoogle = window.adsbygoogle || []).push({});</script>';
 		}
 		gTstr = arr[i].substring(0,1);
 		creatImg += "<li><a href='file/"+fName+arr[i]+".html'> <div class='imgSize'><img class='lazy' src='imgs/load.gif' data-echo='picture/view/"+fName+arr[i]+".jpg'/></div></a><div class='newsAllTitle'><p>"+arr0[i]+"</p><span class='tView'>"+dtp[gTstr-1][arr[i]][0]["1"]+"</span></div></li>";	
@@ -634,5 +634,5 @@ By("next").setAttribute("data-content", "Next" );
 function reFlush(){
 	timer = setTimeout(function(){
 		(adsbygoogle = window.adsbygoogle || []).push({});        
-	}, 1000)
+	}, 1500)
 }
