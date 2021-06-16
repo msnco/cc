@@ -632,5 +632,7 @@ By("prev").setAttribute("data-content", "Prev" );
 By("next").setAttribute("data-content", "Next" );
 
 function reFlush(){
-(adsbygoogle = window.adsbygoogle || []).push({});
+	timer = setTimeout(function(){
+		(adsbygoogle = window.adsbygoogle || []).push({});        
+	}, 1000)
 }
