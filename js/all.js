@@ -271,7 +271,7 @@ function gotopage(nextNums){
 		gTstr = arr[i].substring(0,1);
 		creatImg += "<li><a href='file/"+fName+arr[i]+".html'> <div class='imgSize'><img class='lazy' src='imgs/load.gif' data-echo='picture/view/"+fName+arr[i]+".jpg'/></div></a><div class='newsAllTitle'><p>"+arr0[i]+"</p><span class='tView'>"+dtp[gTstr-1][arr[i]][0]["1"]+"</span></div></li>";	
 		if(i == ranNum){
-			creatImg += '<li><ins class="adsbygoogle" style="display:block;margin-top:10px;" data-ad-format="fluid" data-ad-layout-key="-d0-8q+1h+e7+kh" data-ad-client="ca-pub-1937515231401291" data-ad-slot="7813549177"></ins></li>';
+			creatImg += '<li><ins class="adsbygoogle" style="display:block;" data-ad-format="fluid" data-ad-layout-key="-d0-8q+1h+e7+kh" data-ad-client="ca-pub-1937515231401291" data-ad-slot="7813549177"></ins></li>';
 		}
 	}
 	creatLists = creatLists + creatImg;
