@@ -250,11 +250,10 @@ function setpage() {   // 初始化or重繪 頁面列表
 
 /*create page list*/
 var valTwo = showNums;
-var indexVal = 0,ranNum = 0,countN = 0;
+var indexVal = 0,ranNum = 0;
 var curView = 1;
 var gTstr = "";
 function gotopage(nextNums){
-	countN++;
 //	console.log(arr+" :: "+arr0);
 	curPage = nextNums;
 	localStorage.curView = curPage;
@@ -269,11 +268,11 @@ function gotopage(nextNums){
 	}
 	ranNum = Math.floor(Math.random() * (valTwo - indexVal + 1)) + indexVal;
 	for(var i=indexVal; i<valTwo; i++){
-		if(i == ranNum){
-			creatImg += '<ins class="adsbygoogle" style="display:block;margin-top:10px;" data-ad-format="fluid" data-ad-layout-key="-d0-8q+1h+e7+kh" data-ad-client="ca-pub-1937515231401291" data-ad-slot="7813549177"></ins><script defer>(adsbygoogle = window.adsbygoogle || []).push({});</script>';
-		}
 		gTstr = arr[i].substring(0,1);
 		creatImg += "<li><a href='file/"+fName+arr[i]+".html'> <div class='imgSize'><img class='lazy' src='imgs/load.gif' data-echo='picture/view/"+fName+arr[i]+".jpg'/></div></a><div class='newsAllTitle'><p>"+arr0[i]+"</p><span class='tView'>"+dtp[gTstr-1][arr[i]][0]["1"]+"</span></div></li>";	
+		if(i == ranNum){
+			creatImg += '<li><ins class="adsbygoogle" style="display:block;margin-top:10px;" data-ad-format="fluid" data-ad-layout-key="-d0-8q+1h+e7+kh" data-ad-client="ca-pub-1937515231401291" data-ad-slot="7813549177"></ins></li>';
+		}
 	}
 	creatLists = creatLists + creatImg;
 	By("newsAll").innerHTML = creatLists;
@@ -281,7 +280,7 @@ function gotopage(nextNums){
 	setpage();
 	location.href = "#top0";
 	picLazy();
-	reFlush(countN);
+	reFlush();
 }
 
 if(localStorage.curView != undefined){
@@ -632,14 +631,6 @@ function showAll(){
 By("prev").setAttribute("data-content", "Prev" );
 By("next").setAttribute("data-content", "Next" );
 
-function reFlush(val){
-	
-	if(val != 1){
-		val = 1000;
-	}else{
-		val = 3000;
-	}
-	timer = setTimeout(function(){
-			(adsbygoogle = window.adsbygoogle || []).push({});        
-	}, val)
+function reFlush(){
+	setTimeout(function(){(adsbygoogle = window.adsbygoogle || []).push({})}, 500);
 }
