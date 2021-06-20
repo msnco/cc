@@ -98,7 +98,7 @@ echo.init({
   });
 }	
 picLazy();
-var hOut = hdiv = cName = "";
+var hOut = hdiv = cName = cName0 = "";
 var sList = 1;
 function wHome(){
 	var dLen = 1;
@@ -112,9 +112,13 @@ function wHome(){
 		if(dLen > 6){sList = 6;}else{sList = dLen;}
 		for(var j=0; j<sList; j++){	
 			cName = (i+1)+"_"+uTime[i][j];
+			cName0 = cName;
+			if(i == 1 && dtp[i][cName][0]["3"] != undefined){
+				cName0 = "null";
+			}
 			ffname = "file/"+fName+cName+".html";
 			tag0 = "<span class='cTag'>"+dtp[i][cName][0]["1"];
-			hdiv += "<h2><div class='ser_box'>"+tag0+"</span><a class='full' href='"+ffname+"'></a><div class='img'><img class='lazy' src='imgs/load.gif' data-echo='picture/view/"+fName+cName+".jpg' alt='"+dtp[i][cName][0][lang]+"'/><span>"+dtp[i][cName][0][lang]+"</span><div class='box_layer'></div></div><p>"+dtp[i][cName][0][lang]+"</p></div></h2>";
+			hdiv += "<h2><div class='ser_box'>"+tag0+"</span><a class='full' href='"+ffname+"'></a><div class='img'><img class='lazy' src='imgs/load.gif' data-echo='picture/view/"+fName+cName0+".jpg' alt='"+dtp[i][cName][0][lang]+"'/><span>"+dtp[i][cName][0][lang]+"</span><div class='box_layer'></div></div><p>"+dtp[i][cName][0][lang]+"</p></div></h2>";
 		}
 		resH += hOut+hdiv+"</div></div>"+"<div class='moreC' onclick='showCat("+(i)+")'><span>More</span></div>";
 		hdiv = "";
