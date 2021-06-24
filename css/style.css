@@ -898,7 +898,7 @@ border-radius: 10px 0 20px 0;text-align: center;line-height: 40px;overflow: hidd
 	.left0{
 		flex: 0 1 16.6666%; 
 		/* flex: auto;  */
-		min-width:250px;
+		min-width:180px;
 		margin-left:5px;
 	}
 	.center0{
@@ -909,7 +909,7 @@ border-radius: 10px 0 20px 0;text-align: center;line-height: 40px;overflow: hidd
 	.right0{
 		flex: 1 1 20.6666%;
 		/* flex: auto; */
-		min-width:180px;
+		min-width:250px;
 		margin-right:5px;
 	}
 /**/
