@@ -266,3 +266,6 @@ function sDict(val){
 	localStorage.sStr = sStr;
 	location.href = "file/cus.html";
 }
+for(var i=0; i<nTxt.length; i++){
+	document.getElementById("nTxt").innerHTML += nTxt[i]+"<br>";
+}
