@@ -252,7 +252,7 @@ function setpage() {   // 初始化or重繪 頁面列表
 var valTwo = showNums;
 var indexVal = 0;
 var curView = 1;
-var gTstr = "",cName0 = "",gGroup = '<ins class="adsbygoogle" style="display:block;" data-ad-format="fluid" data-ad-layout-key="-d0-8q+1h+e7+kh" data-ad-client="ca-pub-1937515231401291" data-ad-slot="7813549177"></ins>';
+var gTstr = "",cName0 = "";//,gGroup = '<ins class="adsbygoogle" style="display:block;" data-ad-format="fluid" data-ad-layout-key="-d0-8q+1h+e7+kh" data-ad-client="ca-pub-1937515231401291" data-ad-slot="7813549177"></ins>';
 function gotopage(nextNums){
 	location.href = "#top0";
 //	console.log(arr+" :: "+arr0);
@@ -266,9 +266,7 @@ function gotopage(nextNums){
 	By("pageMount0").innerHTML = "Page "+curPage+"";
 	By("pageMount").innerHTML = " Total "+amountPage +"";
 	creatLists="";
-	if(arr.length < valTwo){
-		valTwo = arr.length;
-	}
+	if(arr.length < valTwo){valTwo = arr.length;}
 	for(var i=indexVal; i<valTwo; i++){
 		gTstr = arr[i].substring(0,1);
 		cName0 = arr[i];
@@ -277,12 +275,12 @@ function gotopage(nextNums){
 		}
 		creatImg += "<li><a href='file/"+fName+arr[i]+".html'> <div class='imgSize'><img class='lazy' src='imgs/load.gif' data-echo='picture/view/"+fName+cName0+".jpg'/></div></a><div class='newsAllTitle'><p>"+arr0[i]+"</p><span class='tView'>"+dtp[gTstr-1][arr[i]][0]["1"]+"</span></div></li>";
 	}
-	creatLists = gGroup + creatLists + creatImg;
+	creatLists = creatLists + creatImg;
 	By("newsAll").innerHTML = creatLists;
 	creatImg = "";
 	setpage();
 	picLazy();
-	(adsbygoogle = window.adsbygoogle || []).push({});
+//	(adsbygoogle = window.adsbygoogle || []).push({});
 }
 
 if(localStorage.curView != undefined){
