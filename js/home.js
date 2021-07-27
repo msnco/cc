@@ -169,7 +169,7 @@ var cDict = "<a class='btn0' style='position:absolute;width:70px;' onclick='sDic
 var cDict0 = "<a class='btn0' style='position:absolute;width:70px;' onclick='sDict(2)'><img src='imgs/s.gif'/></a>";
 var dSty0 = "<div class='ser_box2' id='serId'>"; 
 hOut = "<div class='pd home'><div class='pd_title'><p class='TL'>";
-var rArr = sArr0.slice(2,sArr0.length-5-2);
+var rArr = sArr0.slice(2,sArr0.length-5);
 var rArr0 = sArr0.slice(sArr0.length-5,sArr0.length);
 
 var colT = 0;
