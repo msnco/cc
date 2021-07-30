@@ -267,5 +267,39 @@ function sDict(val){
 	location.href = "file/cus.html";
 }
 for(var i=0; i<nTxt.length; i++){
-	document.getElementById("nTxt").innerHTML += nTxt[i]+"<br>";
+	By("nTxt").innerHTML += nTxt[i]+"<br>";
 }
+
+/*pic a*/
+/* var oDiv = By('scroll');
+var content = By("content");
+var imgTag = oDiv.getElementsByTagName("img");
+var aBtn = oDiv.getElementsByTagName('button');
+var speed = -1;
+var timer = null;
+function rStart(){
+	content.style.left = content.offsetLeft + speed + 'px';
+		if(content.offsetLeft < - content.offsetWidth / 2){
+			clearInterval(timer);
+			content.style.left = '0';
+		}else if(content.offsetLeft > 0){
+			clearInterval(timer);
+			content.style.left = - content.offsetWidth / 2 + 'px';
+		}
+}
+window.onload = function(){
+	content.innerHTML += content.innerHTML;
+	content.style.width = imgTag[0].offsetWidth * imgTag.length + 'px';
+	timer = setInterval(function(){
+		rStart();
+	},10);
+	aBtn[0].onclick = function(){speed = 1;};
+	aBtn[1].onclick = function(){speed = -1;};
+	content.onmouseover = function(){clearInterval(timer);};
+	content.onmouseout = function(){
+		timer = setInterval(function(){
+			rStart();
+		},10);
+		
+	};
+}; */
