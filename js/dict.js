@@ -1,6 +1,6 @@
 var pageNums = 0;
 var fdArr = [];
-var wCtn = wName = "";
+var wCtn = wName = "",curCat0 = "";
 var cPath = "file/";
 var isUrl = window.location.href;
 var firName = xyStr("/","_").substring(1,wCtn.length);
