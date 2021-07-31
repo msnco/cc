@@ -51,15 +51,12 @@ function Lmess(){
 }
 switch(curCat0){
 	case "sPage":
-		window.addEventListener('load', function () {
-		Waline.Widget.RecentComments({
-		  el: '#waline-recent',
-		  serverURL: 'https://data-zeta.vercel.app',
-		  count: 7
-		});
-		});
+	Waline.Widget.RecentComments({
+	  el: '#waline-recent',
+	  serverURL: 'https://data-zeta.vercel.app',
+	  count: 7
+	});
 	break;
 	default:
 		Lmess();
-	break;
 }
