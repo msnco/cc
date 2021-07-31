@@ -406,7 +406,9 @@ function Lmess(){
 	emojiCDN:"../imgs/face/",
   });
 }
-Lmess();
+window.addEventListener('load', function () {
+	Lmess();
+});
 /* var headHTML = document.getElementsByTagName('head')[0].innerHTML;
 alert(headHTML);
 headHTML    += '<link type="text/css" rel="stylesheet" href="css/style1920.css">';

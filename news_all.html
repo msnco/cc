@@ -32,7 +32,6 @@ html,body{scroll-behavior:smooth;}
 }
 #waline-recent{background:#333333;}
 </style>
-<script defer src="js/m0.js"></script>
 <script defer src="js/detTxt.js"></script> 
 <script defer src="js/pic.js"></script>
 <script defer src="js/cht.js"></script>
@@ -178,13 +177,5 @@ html,body{scroll-behavior:smooth;}
 </div>
 </div>  <!-- -->
 </body>
-<script>
-window.addEventListener('load', function () {
-    Waline.Widget.RecentComments({
-      el: '#waline-recent',
-      serverURL: 'https://data-zeta.vercel.app',
-      count: 7
-    });
-});
-</script>
+<script src="js/m0.js"></script>
 </html>
