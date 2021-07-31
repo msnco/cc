@@ -397,7 +397,16 @@ function sVideo(){
 	}
 }
 sVideo();
-
+function Lmess(){
+	new Waline({
+	el: '#container0',
+	path: location.pathname,
+	serverURL: 'https://data-zeta.vercel.app',
+	highlight:false,
+	emojiCDN:"../imgs/face/",
+  });
+}
+Lmess();
 /* var headHTML = document.getElementsByTagName('head')[0].innerHTML;
 alert(headHTML);
 headHTML    += '<link type="text/css" rel="stylesheet" href="css/style1920.css">';

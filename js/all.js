@@ -1,5 +1,5 @@
 var tLen = [];
-var pageNums = 0,curCat0 = "sPage";
+var pageNums = 0;
 function taa(){
 	for(var i=0; i<dtp.length; i++){
 		tLen.push(Object.keys(dtp[i]).length);
@@ -630,3 +630,10 @@ function showAll(){
 }
 By("prev").setAttribute("data-content", "Prev" );
 By("next").setAttribute("data-content", "Next" );
+window.addEventListener('load', function () {
+    Waline.Widget.RecentComments({
+      el: '#waline-recent',
+      serverURL: 'https://data-zeta.vercel.app',
+      count: 7
+    });
+});
