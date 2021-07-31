@@ -1,5 +1,5 @@
-var tLen = [];  
-var pageNums = 0;
+var tLen = [];
+var pageNums = 0,curCat0 = "sPage";
 function taa(){
 	for(var i=0; i<dtp.length; i++){
 		tLen.push(Object.keys(dtp[i]).length);
@@ -171,15 +171,15 @@ function gTop(){
 	}
 }
 function sessExise(){ 
-	var curCat0 = 0;
+	var curCat = 0;
 	By("searchTxt").placeholder = "empty search restore";
 	By("searchTxt").className = "addLig";
 	serLists = localStorage.arr;  
 	arr = JSON.parse(serLists);  
 
 	for(var i=0; i<arr.length; i++){
-		curCat0 = arr[i].substring(0,arr[i].lastIndexOf("_"));
-		arr0.push(dtp[curCat0-1][arr[i]][0][lang]); 
+		curCat = arr[i].substring(0,arr[i].lastIndexOf("_"));
+		arr0.push(dtp[curCat-1][arr[i]][0][lang]); 
 	}
 	amountPage = localStorage.getItem("setResu");
 	amountPage = parseInt(amountPage);
