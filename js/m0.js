@@ -56,15 +56,15 @@ function Lmess(){
   });
 }
 window.addEventListener('load', function () {
-switch(cUrl){
-	case "news_all":
-	Waline.Widget.RecentComments({
-	  el: '#waline-recent',
-	  serverURL: 'https://data-zeta.vercel.app',
-	  count: 7
-	});
-	break;
-	default:
+	switch(cUrl){
+		case "news_all":
+		Waline.Widget.RecentComments({
+		el: '#waline-recent',
+		serverURL: 'https://data-zeta.vercel.app',
+		count: 7
+		});
+		break;
+		default:
 		Lmess();
-}
+	}
 });
