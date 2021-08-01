@@ -55,6 +55,7 @@ function Lmess(){
 	emojiCDN:"../imgs/face/",
   });
 }
+window.addEventListener('load', function () {
 switch(cUrl){
 	case "news_all":
 	Waline.Widget.RecentComments({
@@ -66,3 +67,4 @@ switch(cUrl){
 	default:
 		Lmess();
 }
+});
