@@ -397,7 +397,7 @@ function sVideo(){
 	}
 }
 sVideo();
-function Lmess(){
+/* function Lmess(){
 	new Waline({
 	el: '#container0',
 	path: location.pathname,
@@ -408,7 +408,7 @@ function Lmess(){
 }
 window.addEventListener('load', function () {
 	Lmess();
-});
+}); */
 /* var headHTML = document.getElementsByTagName('head')[0].innerHTML;
 alert(headHTML);
 headHTML    += '<link type="text/css" rel="stylesheet" href="css/style1920.css">';

@@ -631,10 +631,10 @@ function showAll(){
 By("prev").setAttribute("data-content", "Prev" );
 By("next").setAttribute("data-content", "Next" );
 
-window.addEventListener('load', function () {
+/* window.addEventListener('load', function () {
     Waline.Widget.RecentComments({
       el: '#waline-recent',
       serverURL: 'https://data-zeta.vercel.app',
       count: 7
     });
-});
+}); */
