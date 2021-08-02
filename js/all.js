@@ -273,7 +273,7 @@ function gotopage(nextNums){
 		if(gTstr == 2 && dtp[gTstr-1][arr[i]][0]["3"] != undefined){
 			cName0 = "null";
 		}
-		creatImg += "<li><a href='file/"+fName+arr[i]+".html'> <div class='imgSize'><img class='lazy' src='imgs/load.gif' data-echo='picture/view/"+fName+cName0+".jpg'/></div></a><div class='newsAllTitle'><p>"+arr0[i]+"</p><span class='tView'>"+dtp[gTstr-1][arr[i]][0]["1"]+"</span></div></li>";
+		creatImg += "<li><a href='file/"+fName+arr[i]+".html'> <div class='imgSize'><img class='lazy' src='"+pUrl+"imgs/load.gif' data-echo='"+pUrl+"picture/view/"+fName+cName0+".jpg'/></div></a><div class='newsAllTitle'><p>"+arr0[i]+"</p><span class='tView'>"+dtp[gTstr-1][arr[i]][0]["1"]+"</span></div></li>";
 	}
 	creatLists = creatLists + creatImg;
 	By("newsAll").innerHTML = creatLists;

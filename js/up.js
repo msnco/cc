@@ -43,7 +43,7 @@ hLang();
 /*写入文本*/
 var hUl = hLi = hFont = hBtn = hpic = ""; 							
 hUl = "<ul class='dtUl'>";
-hLi = "<li class='Lpic'><div class='tdPic'><img class='lazy' src='../imgs/load.gif' data-echo='../picture/view/";
+hLi = "<li class='Lpic'><div class='tdPic'><img class='lazy' src='"+pUrl0+"imgs/load.gif' data-echo='"+pUrl0+"picture/view/";
 hpic = ".jpg'/></div></li><li class='tdTxt'><span>";
 end0 = parseInt(curCat.substring(fName.length,curCat.lastIndexOf("_")));
 var gp = "";
@@ -115,7 +115,7 @@ function creatEle(curPd_sel){
 			picNum = eval(picNum);	 
 			acWin = 1;
 			for(var i=0; i < picNum; i++ ){
-				isLi += "<li><img alt='"+document.title+"' class='lazy' src='../imgs/load.gif' data-echo='../picture/"+fName+end0+"/"+pName+"-"+(i+1)+gp+".jpg'/></li>";
+				isLi += "<li><img alt='"+document.title+"' class='lazy' src='"+pUrl0+"imgs/load.gif' data-echo='"+pUrl0+"picture/"+fName+end0+"/"+pName+"-"+(i+1)+gp+".jpg'/></li>";
 			}
 			if(isLi != ""){
 				By("cbtn0").style.display = "block";

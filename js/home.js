@@ -118,7 +118,7 @@ function wHome(){
 			}
 			ffname = "file/"+fName+cName+".html";
 			tag0 = "<span class='cTag'>"+dtp[i][cName][0]["1"];
-			hdiv += "<h2><div class='ser_box'>"+tag0+"</span><a class='full' href='"+ffname+"'></a><div class='img'><img class='lazy' src='imgs/load.gif' data-echo='picture/view/"+fName+cName0+".jpg' alt='"+dtp[i][cName][0][lang]+"'/><span>"+dtp[i][cName][0][lang]+"</span><div class='box_layer'></div></div><p>"+dtp[i][cName][0][lang]+"</p></div></h2>";
+			hdiv += "<h2><div class='ser_box'>"+tag0+"</span><a class='full' href='"+ffname+"'></a><div class='img'><img class='lazy' src='"+pUrl+"imgs/load.gif' data-echo='"+pUrl+"picture/view/"+fName+cName0+".jpg' alt='"+dtp[i][cName][0][lang]+"'/><span>"+dtp[i][cName][0][lang]+"</span><div class='box_layer'></div></div><p>"+dtp[i][cName][0][lang]+"</p></div></h2>";
 		}
 		resH += hOut+hdiv+"</div></div>"+"<div class='moreC' onclick='showCat("+(i)+")'><span>More</span></div>";
 		hdiv = "";
@@ -165,8 +165,8 @@ function cMess(val){
 /**/
 var corVal = ["#ff7676e3","#41b141","#bfba10","#819fab","#ff47b6c7"];
 var dSty = "<div class='ser_box1'>"; 
-var cDict = "<a class='btn0' style='position:absolute;width:70px;' onclick='sDict(1)'><img src='imgs/s.gif'/></a>";
-var cDict0 = "<a class='btn0' style='position:absolute;width:70px;' onclick='sDict(2)'><img src='imgs/s.gif'/></a>";
+var cDict = "<a class='btn0' style='position:absolute;width:70px;' onclick='sDict(1)'><img src='"+pUrl+"imgs/s.gif'/></a>";
+var cDict0 = "<a class='btn0' style='position:absolute;width:70px;' onclick='sDict(2)'><img src='"+pUrl+"imgs/s.gif'/></a>";
 var dSty0 = "<div class='ser_box2' id='serId'>"; 
 hOut = "<div class='pd home'><div class='pd_title'><p class='TL'>";
 var rArr = sArr0.slice(2,sArr0.length-5);
