@@ -391,9 +391,9 @@ function sVideo(){
 		addV0 = addV.split(",");
 		var script = document.createElement('script');
 		script.async = "async";
-		script.src = "https://cdn.jsdelivr.net/npm/@msncc/nothing@1.1.1/js/video.js";
+		script.src = "https://cdn.jsdelivr.net/npm/@msncc/nothing@1.1.2/js/video.js";
 		document.getElementsByTagName('head')[0].appendChild(script);
-		aLink("https://cdn.jsdelivr.net/npm/@msncc/nothing@1.1.1/css/vsty.css");
+		aLink("https://cdn.jsdelivr.net/npm/@msncc/nothing@1.1.2/css/vsty.css");
 	}
 }
 sVideo();
