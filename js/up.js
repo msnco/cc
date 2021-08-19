@@ -387,7 +387,7 @@ function aLink(url){
 	By("sVideo").innerHTML = "<video class='video-js vjs-big-play-centered vjs-fluid vjs-theme-fantasy' controls preload='none' poster='' data-setup='{}'>"+stInner+"</video>";
 }
 function sVideo(){
-	if(addV != undefined){
+	if(addV != undefined && addV != ""){
 		addV0 = addV.split(",");
 		var script = document.createElement('script');
 		script.async = "async";
