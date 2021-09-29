@@ -231,7 +231,7 @@ a.hN:hover{/* background:#1f5faf; */opacity:0.5;color:#deb887; background:#00304
 }
 /*------------------------------------------------------------------------------------------*/
 .TL{background: #ffffff26;min-width:200px;border-radius: 10px;padding: 10px 10px;
-border: 1px solid skyblue;display: inline-block;}
+border: 1px solid #656565;display: inline-block;}
 .pd{
 	position: relative;
 /* 	margin: 50px auto;

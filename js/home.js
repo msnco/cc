@@ -274,7 +274,7 @@ for(var i=0; i<nTxt.length; i++){
 /* var oDiv = By('scroll');
 var content = By("content");
 var imgTag = oDiv.getElementsByTagName("img");
-var aBtn = oDiv.getElementsByTagName('button');
+var aBtn = oDiv.getElementsByTagName('em');
 var speed = -1;
 var timer = null;
 function rStart(){
